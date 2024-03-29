@@ -1,3 +1,197 @@
-.hola{
-    color: aliceblue;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;  /*Transforma en mayuscula*/
+}
+
+.logo{
+    display: flex;
+    margin-left: 30px;
+}
+
+.logo img{
+    width:  50px;
+    height: 50px;
+}
+
+.logo2{
+    display: flex;
+    margin-right: 30px;
+}
+
+.logo2 img{
+    width: 40px;
+    margin-right: 5px;
+}
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #29c224;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+    font-weight: bold; 
+      
+}
+
+.banner{
+    height: 60vh !important;
+    background: url(/img/banner.png) no-repeat center;  
+    background-attachment: fixed;   /*Para mover la foto scroll*/
+    background-size:cover;      /*cover: ocupa todo el ancho la imagen*/
+}  
+
+
+.menu2{
+    display: flex;
+    margin-right: 10px;
+   
+
+}
+
+.menu2 a {
+    display: block;
+    padding: 20px 20px;
+    color: rgb(233, 231, 231);
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu2 a:hover{
+    background-color: #b5ecad;
+}
+
+.logo2 img:hover{
+    background-color: #b5ecad;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+
+.header{
+    height: 30vh !important;
+    background: url(/img/banner.png);  
+    background-attachment: fixed;
+    background-size: contain;  /* Contain: ajusta la imagen dentro del contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}  
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.social-panel{
+    display: flex;
+    
+}
+.social-icons{
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.social-icons a {
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+.contactanos{
+    font-weight: bold; 
+}
+
+  
+.whatsapp {
+    width: 60px; /* Tamaño personalizado para el icono de Whatsapp */
+}
+
+.instagram {
+    width: 128px; /* Tamaño personalizado para el icono de Instagram */
+}
+
+.facebook {
+    width: 85px; /* Tamaño personalizado para el icono de Facebook */
+}
+
+.twitter {
+    width: 53px; /* Tamaño personalizado para el icono de Twitter */
+}
+
+
+
+
+
+.contenido-productos{
+    display: flex;  /*diseño cuadricula*/
+    
+   
+}
+
+
+.item{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    margin-right: 20px; /* Espacio entre los productos */
+    margin-left: 20px;
+
+}
+.item:hover{
+    box-shadow: 0 10px 20px black;
+}
+
+.producto:last-child {
+    margin-right: 0; /* No aplicar margen a último elemento */
+}
+
+.info-product{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.precio{
+    font-size: 16px;
+    font-weight: 750;
+}
+
+.info-product button{
+    border: none;
+    background: none;
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.item img{
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+
+
+
