@@ -7,7 +7,7 @@
 body{
     text-align: center;
     font-family: sans-serif;
-    text-transform: uppercase;  /*Transforma en mayuscula*/
+    
 }
 
 .logo{
@@ -41,6 +41,7 @@ body{
     width: 100%;
     z-index: 100%;
     font-weight: bold; 
+    text-transform: uppercase;  /*Transforma en mayuscula*/
       
 }
 
@@ -99,8 +100,26 @@ body{
 }
 
 
+
+
+
+
+.contenedor-flex{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+
+
+
+
 .social-panel{
     display: flex;
+    width: 30%;
     
 }
 .social-icons{
@@ -143,8 +162,36 @@ body{
 
 .contenido-productos{
     display: flex;  /*diseño cuadricula*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 25px;
+    margin-top: 25px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
     
-   
+}
+
+.titulo-catalogo{
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.ver-mas{
+    margin-left: auto;
+    width: 4.5%;
+}
+
+.items-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 
@@ -152,8 +199,7 @@ body{
     border-radius: 10px;
     display: flex;
     flex-direction: column; /* Apila los elementos verticalmente */
-    margin-right: 20px; /* Espacio entre los productos */
-    margin-left: 20px;
+    margin: 0 20px 20px;
 
 }
 .item:hover{
@@ -192,6 +238,62 @@ body{
     border-radius: 10px 10px 0 0;
 }
 
+.page-footer{
+    border-bottom: 1px solid #9c9a9a;
+    background-color: #f4f4f4;
+    margin-top: 60px;
+
+}
+
+.tittle-footer{
+    font-size: 95;
+    margin-top: 5px;
+
+}
 
 
+.btn{
+    display: inline-block;
+    width: auto;
+    font-weight: 500;
+    padding: 6px 12px;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: aliceblue;
+    background-color: rgb(35, 126, 206);
+    margin-top: 20px;
+}
+
+.suscribirse{
+    text-align: center;
+    min-height: 15vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.policy-text {
+    margin-top: 15px;
+    color: #000;
+    display: flex;
+    text-align: center;
+    
+    
+    
+
+}
+
+.policy-link {
+    color: rgb(35, 126, 206); /* Color azul para los enlaces */
+    text-decoration: none; /* Remueve el subrayado de los enlaces */
+}
+
+.policy-link:hover {
+    text-decoration: underline; /* Añade subrayado al pasar el ratón sobre el enlace */
+}
 
