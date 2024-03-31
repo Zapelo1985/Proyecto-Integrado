@@ -109,7 +109,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
    
 }
 
@@ -246,33 +246,28 @@ body{
 }
 
 .tittle-footer{
-    font-size: 95;
     margin-top: 5px;
-
 }
 
 
 .btn{
-    display: inline-block;
     width: auto;
-    font-weight: 500;
-    padding: 6px 12px;
-    font-size: 1.2rem;
-    line-height: 1.6rem;
+    padding: 4px 10px;
+    font-size: 1rem;
+    line-height: 1.2rem;
     color: aliceblue;
     background-color: rgb(35, 126, 206);
     margin-top: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: 20px;
 }
 
 .suscribirse{
-    text-align: center;
     min-height: 15vh;
-    align-items: center;
     justify-content: center;
     display: flex;
-    padding-top: 20px;
-    width: 100%;
-    padding: 10px;
+    padding: 40px;
     margin-bottom: 20px;
     
 }
@@ -282,18 +277,62 @@ body{
     color: #000;
     display: flex;
     text-align: center;
-    
-    
-    
-
 }
+
+.input-text{
+    width: 300px; /* Ancho del cuadro de texto */
+    height: 30px; /* Altura del cuadro de texto */
+    font-size: 1rem; 
+}
+
+
 
 .policy-link {
     color: rgb(35, 126, 206); /* Color azul para los enlaces */
     text-decoration: none; /* Remueve el subrayado de los enlaces */
+    margin-left: 5px;
+    
 }
 
 .policy-link:hover {
     text-decoration: underline; /* Añade subrayado al pasar el ratón sobre el enlace */
 }
 
+.footer-content{
+    display: flex;
+    border-right: 1px solid #9c9a9a;
+    list-style: none none;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0rem;
+    text-decoration: none;
+    
+}
+
+.acerca-footer{
+    padding-right: 50px;
+    text-decoration: none;
+
+
+}
+.listas-acerca{
+    list-style: none none;
+    text-decoration: none;
+}
+
+.listas-contacto{
+    list-style: none none;
+    text-decoration: none;
+}
+
+.contacto-footer{
+    padding-left: 50rem;
+    text-decoration: none;
+}
+
+.tittle-footer{
+    color: #333;
+    font-style: normal;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
