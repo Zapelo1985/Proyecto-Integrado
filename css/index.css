@@ -104,7 +104,7 @@ body{
 
 
 
-.contenedor-flex{
+.container-flex{
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -117,50 +117,12 @@ body{
 
 
 
-.social-panel{
-    display: flex;
-    width: 30%;
-    
-}
-.social-icons{
-    padding: 20px;
-    margin-top: 40px;
-    margin-bottom: 10px;
-    display: block;
-}
-
-.social-icons a {
-    display: block;
-    margin-bottom: 10px;
-    
-}
-
-.contactanos{
-    font-weight: bold; 
-}
-
-  
-.whatsapp {
-    width: 60px; /* Tamaño personalizado para el icono de Whatsapp */
-}
-
-.instagram {
-    width: 128px; /* Tamaño personalizado para el icono de Instagram */
-}
-
-.facebook {
-    width: 85px; /* Tamaño personalizado para el icono de Facebook */
-}
-
-.twitter {
-    width: 53px; /* Tamaño personalizado para el icono de Twitter */
-}
 
 
 
 
 
-.contenido-productos{
+.content-products{
     display: flex;  /*diseño cuadricula*/
     flex-direction: column;
     justify-content: center;
@@ -174,14 +136,14 @@ body{
     
 }
 
-.titulo-catalogo{
+.title-catalog{
     width: 100%;
     display: flex;
     padding: 15px;
     margin-bottom: 20px;
 }
 
-.ver-mas{
+.button-more{
     margin-left: auto;
     width: 4.5%;
 }
@@ -218,7 +180,7 @@ body{
     gap: 10px;
 }
 
-.precio{
+.price{
     font-size: 16px;
     font-weight: 750;
 }
@@ -263,7 +225,7 @@ body{
     margin-left: 20px;
 }
 
-.suscribirse{
+.subscribe{
     min-height: 15vh;
     justify-content: center;
     display: flex;
@@ -309,18 +271,18 @@ body{
     
 }
 
-.acerca-footer{
+.about-footer{
     padding-right: 50px;
     text-decoration: none;
 
 
 }
-.listas-acerca{
+.listas-about{
     list-style: none none;
     text-decoration: none;
 }
 
-.listas-contacto{
+.listas-contact{
     list-style: none none;
     text-decoration: none;
 }
