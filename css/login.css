@@ -145,6 +145,7 @@ body{
 .login button {
     background-color: #28A745;
     color: white;
+    border-radius: 0.625em;
     border: none;
     padding: 0.625em 1.25em;  
 }
@@ -154,8 +155,8 @@ body{
 .register {
     width: 45%;
     background-color: #f8f9fa;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 1.25em;
+    border-radius: 0.32em;
     text-align: left;
 }
 
@@ -166,8 +167,9 @@ body{
 .register button {
     background-color: #28A745;
     color: white;
+    border-radius: 0.625em;
     border: none;
-    padding: 10px 20px;
+    padding: 0.625em 1.25em;
     text-align: center;
 
 }
