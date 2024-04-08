@@ -12,22 +12,22 @@ body{
 
 .logo{
     display: flex;
-    margin-left: 30px;
+    margin-left: 1.87em;
 }
 
 .logo img{
-    width:  50px;
-    height: 50px;
+    width:  3.1em;
+    height: 3.1em;
 }
 
 .logo2{
     display: flex;
-    margin-right: 30px;
+    margin-right: 1.87em;
 }
 
 .logo2 img{
-    width: 40px;
-    margin-right: 5px;
+    width: 2.5em;
+    margin-right: 0.31em;
 }
 
 
@@ -35,7 +35,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 70px;
+    height: 4.37em;
     background-color: #29c224;
     position: fixed;
     width: 100%;
@@ -55,14 +55,12 @@ body{
 
 .menu2{
     display: flex;
-    margin-right: 10px;
-   
-
+    margin-right: 0.62em;
 }
 
 .menu2 a {
     display: block;
-    padding: 20px 20px;
+    padding: 1.25em 1.25em;
     color: rgb(233, 231, 231);
     text-decoration: none;
     color: black;
@@ -100,27 +98,14 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .content-products{
     display: flex;  /*diseño cuadricula*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 25px;
-    margin-top: 25px;
+    padding: 1.56em;
+    margin-top: 1.56em;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -130,8 +115,8 @@ body{
 .title-catalog{
     width: 100%;
     display: flex;
-    padding: 15px;
-    margin-bottom: 20px;
+    padding: 0.9375em;
+    margin-bottom: 1.25em;
 }
 
 .button-more{
@@ -144,19 +129,19 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25em;
 }
 
 
 .item{
-    border-radius: 10px;
+    border-radius:  0.62em;
     display: flex;
     flex-direction: column; /* Apila los elementos verticalmente */
-    margin: 0 20px 20px;
+    margin: 0 1.25em 1.25em;
 
 }
 .item:hover{
-    box-shadow: 0 10px 20px black;
+    box-shadow: 0 0.625em 1.25em black;
 }
 
 .producto:last-child {
@@ -164,15 +149,15 @@ body{
 }
 
 .info-product{
-    padding: 15px 30px;
+    padding: 0.93em 1.87em;
     line-height: 2;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.62em;
 }
 
 .price{
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 750;
 }
 
@@ -181,60 +166,60 @@ body{
     background: none;
     background-color: black;
     color: white;
-    padding: 15px 10px;
+    padding: 0.93em 0.625em;
     cursor: pointer;
 }
 
 .item img{
-    height: 300px;
+    height: 18.75em;
     object-fit: cover;
-    border-radius: 10px 10px 0 0;
+    border-radius: 0.625em 0.625em 0 0;
 }
 
 .page-footer{
     border-bottom: 1px solid #9c9a9a;
     background-color: #f4f4f4;
-    margin-top: 60px;
+    margin-top: 3.75em;
 
 }
 
 .tittle-footer{
-    margin-top: 5px;
+    margin-top: 0.31em;
 }
 
 
 .btn{
     width: auto;
-    padding: 4px 10px;
+    padding: 0.25em 0.625em;
     font-size: 1rem;
     line-height: 1.2rem;
     color: aliceblue;
     background-color: rgb(35, 126, 206);
-    margin-top: 20px;
+    margin-top: 1.25em;
     cursor: pointer;
-    border-radius: 8px;
-    margin-left: 20px;
+    border-radius: 0.5em;
+    margin-left: 1.25em;
 }
 
 .subscribe{
-    min-height: 15vh;
+    min-height: 3.75em;
     justify-content: center;
     display: flex;
-    padding: 40px;
-    margin-bottom: 20px;
+    padding: 2.5em;
+    margin-bottom: 1.25em;
     
 }
 
 .policy-text {
-    margin-top: 15px;
+    margin-top: 0.93em;
     color: #000;
     display: flex;
     text-align: center;
 }
 
 .input-text{
-    width: 300px; /* Ancho del cuadro de texto */
-    height: 30px; /* Altura del cuadro de texto */
+    width: 18.75em; /* Ancho del cuadro de texto */
+    height: 1.87em; /* Altura del cuadro de texto */
     font-size: 1rem; 
 }
 
@@ -243,7 +228,7 @@ body{
 .policy-link {
     color: rgb(35, 126, 206); /* Color azul para los enlaces */
     text-decoration: none; /* Remueve el subrayado de los enlaces */
-    margin-left: 5px;
+    margin-left: 0.31em;
     
 }
 
@@ -253,7 +238,6 @@ body{
 
 .footer-content{
     display: flex;
-    border-right: 1px solid #9c9a9a;
     list-style: none none;
     justify-content: center;
     text-align: center;
@@ -263,29 +247,132 @@ body{
 }
 
 .about-footer{
-    padding-right: 50px;
+    padding-right: 3.125em;
     text-decoration: none;
 
 
 }
-.listas-about{
-    list-style: none none;
+.listas-about li a{
     text-decoration: none;
+    
 }
 
 .listas-contact{
     list-style: none none;
-    text-decoration: none;
+    
 }
 
 .contacto-footer{
-    padding-left: 50rem;
-    text-decoration: none;
+    padding-left: 3.1em;
+    
 }
 
-.tittle-footer{
-    color: #333;
-    font-style: normal;
-    font-size: 1.4rem;
-    text-decoration: none;
+
+
+
+
+/*
+    PARA EL COLOR DEL BORDE
+    justify-content: center;
+
+*/
+
+
+
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .head {
+        height: 5em; 
+    }
+
+    .logo {
+        margin-left: 1.5em;
+    }
+
+    .logo2 {
+        margin-right: 1.5em;
+    }
+
+    .menu2 a {
+        padding: 1em; 
+    }
+
+    .content-products {
+        width: 90%; 
+    }
+
+    .item {
+        margin: 0 1em 1em; 
+    }
+
+    .item img {
+        height: 15em; 
+    }
+
+    .btn {
+        margin-left: 1em; 
+    }
 }
+
+
+
+@media screen and (max-width: 1440px) {
+    .logo {
+        margin-left: 0.93em; 
+    }
+
+    .logo img {
+        width: 2.5em; 
+        height: 2.5em; 
+    }
+
+    .logo2 {
+        margin-right: 0.93em; /
+    }
+
+    .logo2 img {
+        width: 2em; 
+        margin-right: 0.31em; 
+    }
+
+    .content-products {
+        width: 90%; 
+    }
+
+    .items-container {
+        flex-wrap: wrap; 
+    }
+
+    .item {
+        margin: 0.93em 0.62em; 
+    }
+
+    .item img {
+        height: 15em; 
+    }
+
+    .button-more{
+        margin-left: auto;
+        width: 7.5%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+
+
+*/
