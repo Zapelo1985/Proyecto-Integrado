@@ -213,8 +213,7 @@ body{
 .policy-text {
     margin-top: 0.93em;
     color: #000;
-    display: flex;
-    text-align: center;
+    display: block;
 }
 
 .input-text{
@@ -224,12 +223,9 @@ body{
 }
 
 
-
 .policy-link {
     color: rgb(35, 126, 206); /* Color azul para los enlaces */
     text-decoration: none; /* Remueve el subrayado de los enlaces */
-    margin-left: 0.31em;
-    
 }
 
 .policy-link:hover {
@@ -240,30 +236,27 @@ body{
     display: flex;
     list-style: none none;
     justify-content: center;
-    text-align: center;
-    margin-top: 0rem;
     text-decoration: none;
-    
+}
+
+.footer-content h4{
+    text-transform: uppercase;
+}
+
+.footer-content ul li{
+    list-style: none;
 }
 
 .about-footer{
     padding-right: 3.125em;
-    text-decoration: none;
-
-
 }
+
 .listas-about li a{
     text-decoration: none;
-    
-}
-
-.listas-contact{
-    list-style: none none;
-    
 }
 
 .contacto-footer{
-    padding-left: 3.1em;
+    padding-left: 7em;
     
 }
 
