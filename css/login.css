@@ -101,45 +101,52 @@ body{
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 1.25em; /* Convertido de 20px a em */
     position: relative;
-    top: 100px;
+    top: 6.25em; /* Convertido de 100px a em */
+    text-align: center;
 }
 
 /* Estilos para la sección de inicio de sesión */
 .login {
-    width: 45%;
     background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 1.25em; /* Converted from 20px to em */
+    border-radius: 0.3125em; /* Converted from 5px to em */
+    text-align: center;
+    position: relative;
+    
 }
 
 .login h1, .login h3 {
     color: #333;
+    
+    
 }
 
 .login label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125em; /* Converted from 5px to em */
 }
 
 .login input[type="email"], .login input[type="password"] {
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin-bottom: 15px; 
+    width: 30em;
+    padding: 0.625em;
+    margin-bottom: 0.9375em; 
+    text-align: center;
 }
 
 .login a {
     display: block;
-    margin-bottom: 15px;
-    color: #007BFF;
+    margin-bottom: 0.9375em;
+    color: #000000;
 }
+
 
 .login button {
     background-color: #28A745;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 0.625em 1.25em;  
 }
 
 /* Estilos para la sección de registro */
