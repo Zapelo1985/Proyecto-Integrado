@@ -102,6 +102,8 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    position: relative;
+    top: 100px;
 }
 
 /* Estilos para la sección de inicio de sesión */
@@ -141,11 +143,13 @@ body{
 }
 
 /* Estilos para la sección de registro */
+
 .register {
     width: 45%;
     background-color: #f8f9fa;
     padding: 20px;
     border-radius: 5px;
+    text-align: left;
 }
 
 .register p {
@@ -153,8 +157,10 @@ body{
 }
 
 .register button {
-    background-color: #007BFF;
+    background-color: #28A745;
     color: white;
     border: none;
     padding: 10px 20px;
+    text-align: center;
+
 }
