@@ -184,7 +184,7 @@ body{
 }
 
 .tittle-footer{
-    margin-top: 0.31em;
+    margin-top: 0.3em;
 }
 
 
@@ -237,6 +237,9 @@ body{
     list-style: none none;
     justify-content: center;
     text-decoration: none;
+    width: 100%;
+    height: 6.25em;
+    
 }
 
 .footer-content h4{
@@ -253,10 +256,12 @@ body{
 
 .listas-about li a{
     text-decoration: none;
+    color: #9c9a9a;
+    text-align: left;
 }
 
 .contacto-footer{
-    padding-left: 7em;
+    padding-left: 10em;
     
 }
 
