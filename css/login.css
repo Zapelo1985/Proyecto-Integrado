@@ -129,6 +129,15 @@ body{
     margin-bottom: 0.3125em; /* Converted from 5px to em */
 }
 
+.password-input {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .text {
+    text-align: left;
+  }
+
 .login input[type="email"], .login input[type="password"] {
     width: 30em;
     padding: 0.625em;
@@ -155,10 +164,11 @@ body{
 
 .register {
     display: block;
-    width: 45%;
+    width: 40%;
     padding: 1.25em;
     border-radius: 0.32em;
     text-align: left;
+    margin-left: 20%;
 }
 
 .register p {
@@ -272,7 +282,7 @@ input-text{
 .page-footer{
     border-bottom: 1px solid #9c9a9a;
     background-color: #eee7e7;
-    margin-top: 3.75em;
+    margin-top: 5em;
 
 }
 
