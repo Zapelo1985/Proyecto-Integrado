@@ -176,22 +176,22 @@ body{
 }
 
 input-text{
-    width: 300px; /* Ancho del cuadro de texto */
-    height: 30px; /* Altura del cuadro de texto */
+    width: 18.75rem; /* Ancho del cuadro de texto */
+    height: 1.88rem; /* Altura del cuadro de texto */
     font-size: 1rem; 
 }
 
 
 
 .item{
-    border-radius: 10px;
+    border-radius: 0.63rem;
     display: flex;
     flex-direction: column; /* Apila los elementos verticalmente */
-    margin: 0 20px 20px;
+    margin: 0 1.25rem 1.25rem;
 
 }
 .item:hover{
-    box-shadow: 0 10px 20px black;
+    box-shadow: 0 0.63rem 1.25rem black;
 }
 
 .producto:last-child {
@@ -199,15 +199,15 @@ input-text{
 }
 
 .info-product{
-    padding: 15px 30px;
+    padding: 0.94rem 1.88rem;
     line-height: 2;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.63rem;
 }
 
 .price{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 750;
 }
 
@@ -216,20 +216,20 @@ input-text{
     background: none;
     background-color: black;
     color: white;
-    padding: 15px 10px;
+    padding: 0.94rem 0.63rem;
     cursor: pointer;
 }
 
 .item img{
     height: 300px;
     object-fit: cover;
-    border-radius: 10px 10px 0 0;
+    border-radius: 0.63rem 0.63rem 0 0;
 }
 
 .page-footer{
-    border-bottom: 1px solid #9c9a9a;
+    border-bottom: 0.06rem solid #9c9a9a;
     background-color: #f4f4f4;
-    margin-top: 60px;
+    margin-top: 3.75rem;
     position: absolute;
     bottom: 0;
     display: flex;
@@ -238,42 +238,42 @@ input-text{
 }
 
 .tittle-footer{
-    margin-top: 5px;
+    margin-top: 0.31rem;
 }
 
 
 .btn{
     width: auto;
-    padding: 4px 10px;
+    padding: 0.25rem 0.63rem;
     font-size: 1rem;
     line-height: 1.2rem;
     color: aliceblue;
     background-color: rgb(35, 126, 206);
-    margin-top: 20px;
+    margin-top: 1.25rem;
     cursor: pointer;
-    border-radius: 8px;
-    margin-left: 20px;
+    border-radius: 0.5rem;
+    margin-left: 1.25px;
 }
 
 .subscribe{
     min-height: 15vh;
     justify-content: center;
     display: flex;
-    padding: 40px;
-    margin-bottom: 20px;
+    padding: 2.5rem;
+    margin-bottom: 1.25rem;
     
 }
 
 .policy-text {
-    margin-top: 15px;
+    margin-top: 0.94rem;
     color: #000;
     display: flex;
     text-align: center;
 }
 
 .input-text{
-    width: 300px; /* Ancho del cuadro de texto */
-    height: 30px; /* Altura del cuadro de texto */
+    width: 18.75rem; /* Ancho del cuadro de texto */
+    height: 1.87rem; /* Altura del cuadro de texto */
     font-size: 1rem; 
 }
 
@@ -282,7 +282,7 @@ input-text{
 .policy-link {
     color: rgb(35, 126, 206); /* Color azul para los enlaces */
     text-decoration: none; /* Remueve el subrayado de los enlaces */
-    margin-left: 5px;
+    margin-left: 0.31rem;
     
 }
 
@@ -292,7 +292,7 @@ input-text{
 
 .footer-content{
     display: flex;
-    border-right: 1px solid #9c9a9a;
+    border-right: 0.06rem solid #9c9a9a;
     list-style: none none;
     justify-content: center;
     text-align: center;
@@ -302,7 +302,7 @@ input-text{
 }
 
 .about-footer{
-    padding-right: 50px;
+    padding-right: 3.12rem;
     text-decoration: none;
 
 
