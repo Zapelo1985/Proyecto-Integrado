@@ -7,8 +7,6 @@
 body{
     text-align: center;
     font-family: sans-serif;
-    margin: 0;
-    padding: 0;
     
 }
 
@@ -100,79 +98,52 @@ body{
     align-items: center;
 }
 
-/* Estilos para el contenedor */
 .container {
-    width: 400px;
-    background-color: #fff;
-    margin: 50px auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-
-
-/* Estilos para la sección de inicio de sesión */
-.login {
-    padding: 1.25em; /* Converted from 20px to em */
-    border-radius: 0.3125em; /* Converted from 5px to em */
-    text-align: center;
-    position: relative;
-    
-}
-
-.login h1, .login h3 {
-    color: #333;
-    
-    
-}
-
-.login label {
-    display: block;
-    margin-bottom: 0.3125em; /* Converted from 5px to em */
-}
-
-.password-input {
     display: flex;
-    justify-content: space-between;
-  }
-  
-  .text {
+    width: 100%;
+}
+
+.container1, .center, .register {
+    flex-basis: 33.33%;
+    padding: 20px;
+    align-items: center;
+}
+
+.container1 {
+    width: 33%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
     text-align: left;
-  }
-
-.login input[type="email"], .login input[type="password"] {
-    width: 30em;
-    padding: 0.625em;
-    margin-bottom: 0.9375em; 
-    text-align: center;
 }
 
-.login a {
+.center {
     display: block;
-    margin-bottom: 0.9375em;
-    color: #000000;
-}
-
-
-.login button {
-    background-color: #28A745;
-    color: white;
-    border-radius: 0.625em;
-    border: none;
-    padding: 0.625em 1.25em;  
-}
-
-/* Estilos para la sección de registro */
-
-.register {
-    display: block;
-    width: 40%;
+    width: 33%;
     padding: 1.25em;
     border-radius: 0.32em;
     text-align: left;
     margin-left: 20%;
+    margin-top: 80%;
+}
+
+.register {
+    display: block;
+    width: 33%;
+    padding: 1.25em;
+    border-radius: 0.32em;
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 80%;
+}
+
+h2, h4 {
+    text-align: center;
+}
+
+.register{
+    margin-top: 60%;
 }
 
 .register p {
@@ -186,7 +157,7 @@ body{
     border: none;
     padding: 0.625em 1.25em;
     text-align: center;
-
+    
 }
 
 input-text{
@@ -195,7 +166,7 @@ input-text{
     font-size: 1rem; 
 }
 
-.sho
+
 .container-flex{
     display: flex;
     margin-left: auto;
