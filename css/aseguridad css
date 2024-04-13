@@ -85,44 +85,38 @@ body{
     height: 30vh !important;
     background: url(/img/banner.png);  
     background-attachment: fixed;
-    background-size: contain;  /* para ajustar imagen en el contenedor */
+    background-size: contain;  /* Contain: ajusta la imagen dentro del contenedor */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
 }  
 
 .content{
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.products-container {
-    display: flex;
-    justify-content: space-between; /* Alinea los productos uno al lado del otro */
-    margin-left: 1.25em;
-    margin-right: 1.25em;
-}
 
 .content-products{
     display: flex;  /*diseño cuadricula*/
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 1.56em;
     margin-top: 1.56em;
-    width: 90%;
-    margin-left: 1.25em;
-    margin-right: 1.25em;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
 .title-catalog{
     width: 100%;
     display: flex;
-    padding: 0.9em;
+    padding: 0.9375em;
     margin-bottom: 1.25em;
-    
 }
 
 .button-more{
@@ -131,21 +125,22 @@ body{
 }
 
 .items-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1em;
-    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25em;
 }
 
 .items-container2{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1em;
-    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 50%;
 }
 
-
 .container-img {
+    height: 200px; /* Altura fija para todas las imágenes */
     overflow: hidden; /* Evita que las imágenes se desborden */
 }
 
@@ -194,7 +189,7 @@ body{
 }
 
 .page-footer{
-    border-bottom: 0.0625em solid #9c9a9a;
+    border-bottom: 1px solid #9c9a9a;
     background-color: #eee7e7;
     margin-top: 3.75em;
 
@@ -277,10 +272,6 @@ body{
     text-align: left;
 }
 
-.listas-about{
-    margin-top: 0.1875em ;
-}
-
 .contacto-footer{
     padding-left: 10em;
    
@@ -291,10 +282,6 @@ body{
     width: 1.15em;
     height: 1.1em;
     margin: 0.1em;
-    flex-direction: row; /* Cambiar la dirección a vertical */
-    margin-top: 0.5em;
-    
-    
 }
 
 
@@ -345,24 +332,6 @@ body{
 
     .btn {
         margin-left: 1em; 
-    }
-    .content-products {
-        width: 100%; 
-        margin-left: 0; 
-        margin-right: 0;
-    }
-
-    .title-catalog {
-        padding: 0.5625em;
-    }
-
-    .button-more {
-        width: auto;
-    }
-
-    .items-container,
-    .items-container2 {
-        grid-template-columns: repeat(1, 1fr);
     }
 }
 

@@ -36,12 +36,12 @@
 
         <header class="content header"></header>
 
-        <div class="products-container">
+        <div class="container-flex">
             <section>
                 
                 <div class="content-products">
                     <div class="title-catalog">
-                        <h2>Lo más vendido</h2>
+                        <h2>Novedades</h2>
                     </div>
                     
                     <div class="items-container">
@@ -96,6 +96,24 @@
                     
                             </div>
                         </div>
+                    
+                        
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section>
+                
+                <div class="content-products">
+                    <div class="title-catalog">
+                        <h2>Ofertas</h2>
+                        <button class="button-more">Ver más</button>
+                    </div>
+                    
+    
+                    <div class="items-container">
                         <div class="item">
                        
                             <!-- SACA MUELAS -->
@@ -139,105 +157,36 @@
                                     <img src="/img/productos/saca_muelas.jpg">
                                 </a>                
                             </div>
-                    
+
                             <div class="info-product">
                                 <h3>Nemesis</h2>
                                 <p class="price">146.60€</p>
                                 <button>Añadir al carrito</button>
-                    
                             </div>
                         </div>
+                        <div class="item">
+        
+                            <!-- PRUEBA O VERDAD -->
+                            <div class="container-img">
+                                <a href="/appWeb//productos/prueba_o_verdad.html">
+                                    <img src="/img/productos/saca_muelas.jpg">
+                                </a>                
+                            </div>
                     
-                        
+                            <div class="info-product">
+                                <h3>Prueba o Verdad</h2>
+                                <p class="price">34.02€</p>
+                                <button>Añadir al carrito</button>
+
+                            </div>
+        
+                        </div>
                     </div>
                 </div>
             </section>
 
 
             
-
-            <section>
-                
-                <div class="content-products">
-                    <div class="title-catalog">
-                        <h2>Novedades</h2>
-                    </div>
-                    
-                    <div class="items-container2">
-                        <div class="item">
-                       
-                            <!-- SACA MUELAS -->
-        
-                            <div class="container-img">
-                                <a href="/appWeb//productos/sacamuelas.html">
-                                    <img src="/img/productos/saca_muelas.jpg">
-                                </a>
-                            </div>
-                           
-                            <div class="info-product">
-                                <h3>Sacamuelas</h2>
-                                <p class="price">19.99€</p>
-                                <button>Añadir al carrito</button>
-                            </div>
-                        </div>
-    
-                        <div class="item">
-                             <!-- MONOS LOCOS -->
-                            
-                             <div class="container-img">
-                                <a href="/appWeb//productos/monos_locos.html">
-                                    <img src="/img/productos/saca_muelas.jpg">
-                                </a>                
-                            </div>
-                    
-                            <div class="info-product">
-                                <h3>Monos Locos</h2>
-                                <p class="price">21.49€</p>
-                                <button>Añadir al carrito</button>
-                    
-                            </div>
-        
-                        </div>
-    
-                        <div class="item">
-                            <!-- MONOS NEMESIS -->
-        
-                            <div class="container-img">
-                                <a href="/appWeb//productos/nemesis.html">
-                                    <img src="/img/productos/saca_muelas.jpg">
-                                </a>                
-                            </div>
-                    
-                            <div class="info-product">
-                                <h3>Nemesis</h2>
-                                <p class="price">146.60€</p>
-                                <button>Añadir al carrito</button>
-                    
-                            </div>
-                        </div>
-                        <div class="item">
-                       
-                            <!-- SACA MUELAS -->
-        
-                            <div class="container-img">
-                                <a href="/appWeb//productos/sacamuelas.html">
-                                    <img src="/img/productos/saca_muelas.jpg">
-                                </a>
-                            </div>
-                           
-                            <div class="info-product">
-                                <h3>Sacamuelas</h2>
-                                <p class="price">19.99€</p>
-                                <button>Añadir al carrito</button>
-                            </div>
-                        </div>
-    
-                        
-                        
-                    </div>
-                </div>
-            </section>
-
         </div>
             
     </body>
