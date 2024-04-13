@@ -261,26 +261,19 @@ body{
 }
 
 .contacto-footer{
-    padding-left: 10em;
-   
-    
-}
-.social-icons{
-    display: flex;
-    width: 1.15em;
-    height: 1.1em;
-    margin: 0.1em;
-}
-
-
-.vertical-border {
-    display: flex;
-    border-right: 0.09em solid #9c9a9a;
-    padding-left: 6.2em;
-    margin-top: -2.1em;
+    padding-left: 7em;
     
 }
 
+
+
+
+
+/*
+    PARA EL COLOR DEL BORDE
+    justify-content: center;
+
+*/
 
 
 
