@@ -286,17 +286,6 @@ body{
 
 
 
-
-/*
-    PARA EL COLOR DEL BORDE
-    justify-content: center;
-
-*/
-
-
-
-
-
 /* Media Queries */
 @media screen and (max-width: 768px) {
     .head {
