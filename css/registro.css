@@ -118,6 +118,10 @@ body{
     text-align: left;
 }
 
+.container1 label {
+    text-align: left;
+  }
+
 .center {
     display: block;
     width: 33%;
