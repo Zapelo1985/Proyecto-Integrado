@@ -122,14 +122,19 @@ body{
     text-align: left;
   }
 
+.text-left {
+    text-align: left;
+    padding-left: 0;
+}
+
 .center {
-    display: block;
+    display: flex;
     width: 33%;
     padding: 1.25em;
     border-radius: 0.32em;
     text-align: left;
-    margin-left: 20%;
-    margin-top: 80%;
+    justify-content: center;
+    align-items: center;
 }
 
 .register {
@@ -171,29 +176,6 @@ input-text{
 }
 
 
-.container-flex{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    flex-direction: column;
-    justify-content: center;
-   
-}
-
-.content-products{
-    display: flex;  /*diseño cuadricula*/
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 1.56em;
-    margin-top: 1.56em;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
 .title-catalog{
     width: 100%;
     display: flex;
@@ -204,58 +186,6 @@ input-text{
 .button-more{
     margin-left: auto;
     width: 4.5%;
-}
-
-.items-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 1.25em;
-}
-
-
-.item{
-    border-radius:  0.62em;
-    display: flex;
-    flex-direction: column; /* Apila los elementos verticalmente */
-    margin: 0 1.25em 1.25em;
-
-}
-.item:hover{
-    box-shadow: 0 0.625em 1.25em black;
-}
-
-.producto:last-child {
-    margin-right: 0; /* No aplicar margen a último elemento */
-}
-
-.info-product{
-    padding: 0.93em 1.87em;
-    line-height: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 0.62em;
-}
-
-.price{
-    font-size: 1em;
-    font-weight: 750;
-}
-
-.info-product button{
-    border: none;
-    background: none;
-    background-color: black;
-    color: white;
-    padding: 0.93em 0.625em;
-    cursor: pointer;
-}
-
-.item img{
-    height: 18.75em;
-    object-fit: cover;
-    border-radius: 0.625em 0.625em 0 0;
 }
 
 .page-footer{
@@ -368,81 +298,86 @@ input-text{
 
 
 
-/* Media Queries */
-@media screen and (max-width: 768px) {
-    .head {
-        height: 5em; 
+@media (max-width: 768px) {
+    body {
+        font-size: 0.875rem; /* 14px */
     }
 
-    .logo {
-        margin-left: 1.5em;
+    .container {
+        flex-direction: column;
     }
 
-    .logo2 {
-        margin-right: 1.5em;
+    .container1, .center, .register {
+        width: 100%;
+        margin: 0;
     }
 
-    .menu2 a {
-        padding: 1em; 
-    }
-
-    .content-products {
-        width: 90%; 
-    }
-
-    .item {
-        margin: 0 1em 1em; 
-    }
-
-    .item img {
-        height: 15em; 
-    }
-
-    .btn {
-        margin-left: 1em; 
-    }
-}
-
-
-
-@media screen and (max-width: 1440px) {
-    .logo {
-        margin-left: 0.93em; 
-    }
-
-    .logo img {
-        width: 2.5em; 
-        height: 2.5em; 
-    }
-
-    .logo2 {
-        margin-right: 0.93em; /
-    }
-
-    .logo2 img {
-        width: 2em; 
-        margin-right: 0.31em; 
-    }
-
-    .content-products {
-        width: 90%; 
+    .center, .register {
+        margin-top: 1.25rem; /* 20px */
     }
 
     .items-container {
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
     }
 
     .item {
-        margin: 0.93em 0.62em; 
+        width: 100%;
+        margin: 0 0 1.25rem; /* 20px */
     }
 
-    .item img {
-        height: 15em; 
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .button-more{
-        margin-left: auto;
-        width: 7.5%;
+    .about-footer, .contacto-footer {
+        padding: 0;
+        margin-top: 1.25rem; /* 20px */
     }
 
+    .vertical-border {
+        border: none;
+    }
+}
+
+@media (max-width: 1440px) {
+    body {
+        font-size: 1rem; /* 16px */
+    }
+
+    .container {
+        flex-direction: row;
+    }
+
+    .container1, .center, .register {
+        width: 33%;
+        margin: 0;
+    }
+
+    .center, .register {
+        margin-top: 0;
+    }
+
+    .items-container {
+        flex-wrap: nowrap;
+    }
+
+    .item {
+        width: 33%;
+        margin: 0;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .about-footer, .contacto-footer {
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .vertical-border {
+        border: none;
+    }
 }
