@@ -7,8 +7,6 @@
 body{
     text-align: center;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0
     
 }
 
@@ -102,94 +100,66 @@ body{
 
 .container {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin: 20px;
-  }
-  
-  .left, .center, .register {
-    width: 30%;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-  
-  .left {
-    background-color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  
-  .left h2, .left h4 {
-    margin: 0 0 10px 0;
-  }
-  
-  .left input[type="text"], .left input[type="email"], .left input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  .left input[type="checkbox"] {
-    margin-right: 5px;
-  }
-  
-  .center {
-    background-color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  
-  .center label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .center input[type="email"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  .register {
-    background-color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    padding: 1.25em; /* Convertido de 20px a em */
+    position: relative;
+    top: 6.25em; /* Convertido de 100px a em */
+    text-align: left;
+    z-index: 1;
+    }
+    
+    h1 {
     text-align: center;
-  }
-  
-  .register button {
+    margin-bottom: 20px;
+    }
+    
+    .form-group {
+    margin-bottom: 10px;
+    }
+    
+    label {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    }
+    
+    .show-password {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    }
+    
+    .show-password input[type="checkbox"] {
+    margin-right: 5px;
+    }
+    
+    .create-account-button {
+    padding: 5px 10px;
     background-color: #4CAF50;
     color: white;
-    padding: 14px 20px;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  
-  .register button:hover {
-    background-color: #45a049;
-  }
-  
-  .register p {
-    margin: 0;
-  }
-
-.register button {
-    background-color: #28A745;
-    color: white;
-    border-radius: 0.625em;
-    border: none;
-    padding: 0.625em 1.25em;
-    text-align: center;
+    }
     
-}
+    .create-account-button:hover {
+    background-color: #45a049;
+    }
+
+    .register {
+        display: block;
+        width: 40%;
+        padding: 1.25em;
+        border-radius: 0.32em;
+        text-align: left;
+        margin-left: 20%;
+      }
 
 input-text{
     width: 18.75rem; /* Ancho del cuadro de texto */
