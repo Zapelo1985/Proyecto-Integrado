@@ -106,7 +106,7 @@ body{
     top: 6.25em; /* Convertido de 100px a em */
     text-align: left;
     z-index: 1;
-    width: 200px;
+    width: 12.5rem;
     }
 
     .login, .center, .register {
@@ -116,7 +116,7 @@ body{
       }
 
       .login {
-        width: 300px;
+        width: 18.75rem;
         margin: 0 auto;
     }
     
