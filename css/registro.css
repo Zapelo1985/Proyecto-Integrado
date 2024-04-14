@@ -94,62 +94,19 @@ body{
     height: 50vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
 }
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 1.25em; /* Convertido de 20px a em */
     position: relative;
     top: 6.25em; /* Convertido de 100px a em */
     text-align: left;
     z-index: 1;
-    }
-    
-    h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    }
-    
-    .form-group {
-    margin-bottom: 10px;
-    }
-    
-    label {
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 5px;
-    }
-    
-    input[type="text"],
-    input[type="email"],
-    input[type="password"] {
-    width: 100%;
-    padding: 5px;
-    }
-    
-    .show-password {
-    display: flex;
-    align-items: center;
-    margin-top: 5px;
-    }
-    
-    .show-password input[type="checkbox"] {
-    margin-right: 5px;
-    }
-    
-    .create-account-button {
-    padding: 5px 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-    }
-    
-    .create-account-button:hover {
-    background-color: #45a049;
+    width: 200px;
     }
 
     .register {
