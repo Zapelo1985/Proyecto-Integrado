@@ -5,7 +5,7 @@
 }
 
 body{
-    text-align: center;
+    text-align: left;
     font-family: Arial, sans-serif;
     
 }
@@ -100,13 +100,13 @@ body{
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     padding: 1.25em; /* Convertido de 20px a em */
     position: relative;
     top: 6.25em; /* Convertido de 100px a em */
     text-align: left;
     z-index: 1;
-    width: 12.5rem;
+    width: 100%;
     }
 
     .login, .center, .register {
@@ -115,9 +115,14 @@ body{
         box-sizing: border-box;
       }
 
-      .login {
+    .login {
         width: 18.75rem;
         margin: 0 auto;
+    }
+
+    .login h3 {
+        margin-left: 0;
+        text-align: left;
     }
     
     .login label {
@@ -262,93 +267,4 @@ input-text{
     padding-left: 6.2em;
     margin-top: -2.1em;
     
-}
-
-
-
-
-
-
-@media (max-width: 768px) {
-    body {
-        font-size: 0.875rem; /* 14px */
-    }
-
-    .container {
-        flex-direction: column;
-    }
-
-    .container1, .center, .register {
-        width: 100%;
-        margin: 0;
-    }
-
-    .center, .register {
-        margin-top: 1.25rem; /* 20px */
-    }
-
-    .items-container {
-        flex-wrap: wrap;
-    }
-
-    .item {
-        width: 100%;
-        margin: 0 0 1.25rem; /* 20px */
-    }
-
-    .footer-content {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .about-footer, .contacto-footer {
-        padding: 0;
-        margin-top: 1.25rem; /* 20px */
-    }
-
-    .vertical-border {
-        border: none;
-    }
-}
-
-@media (max-width: 1440px) {
-    body {
-        font-size: 1rem; /* 16px */
-    }
-
-    .container {
-        flex-direction: row;
-    }
-
-    .container1, .center, .register {
-        width: 33%;
-        margin: 0;
-    }
-
-    .center, .register {
-        margin-top: 0;
-    }
-
-    .items-container {
-        flex-wrap: nowrap;
-    }
-
-    .item {
-        width: 33%;
-        margin: 0;
-    }
-
-    .footer-content {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .about-footer, .contacto-footer {
-        padding: 0;
-        margin-top: 0;
-    }
-
-    .vertical-border {
-        border: none;
-    }
 }
