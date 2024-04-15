@@ -383,3 +383,57 @@ input-text{
     margin-top: -2.1em;
     
 }
+
+@media (max-width: 768px) {
+    .logo {
+      margin-left: 0;
+    }
+  
+    .logo2 {
+      margin-right: 0;
+    }
+  
+    .menu2 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .menu2 a {
+      padding: 0.5em;
+    }
+  
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .login {
+      width: 80%;
+      margin-bottom: 1em;
+    }
+  
+    .register {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .items-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .item {
+      width: 80%;
+    }
+  
+    .vertical-border {
+      border-right: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+  
+    .contacto-footer {
+      padding-left: 0;
+    }
+  }
