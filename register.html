@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HABIT GAMES</title>
-    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/register.css">
     <link rel="icon" type="image/jpg" href="/img/LOGO PAGINA WEB.PNG">
 </head>
 
@@ -27,128 +27,63 @@
         </nav>
 
         <div class="logo2">
+            <div class="dropdown-icon">
+                <img src="/img/desplegable.png" alt="Desplegable">
+            </div>
             <a href="#"><img src="/img/user.png" alt="icono para iniciar/registrarse"></a>
             <a href="#"><img class="carro" src="/img/carro.png" alt="carro de compra"></a>
         </div>
 
     </div>
     <div class="container">
-        <div class="container1">
-            <h2>Crear nueva cuenta de cliente</h2>
+        <div class="login">
+            <h1>Crear nueva cuenta de cliente</h1>
             <pre>
 
 
             </pre>
-            <h4>Información Personal</h4>
-            <pre>
-
-
-            </pre>
-            <form action="/action_page.php">
-                <label for="fname" class="text">Nombre:</label>
-                <pre>
-                </pre>
-                <input type="text" id="fname" name="fname">
-                <pre>
-                </pre>
-                <label for="lname" class="text">Apellidos:</label>
-                <pre>
-                </pre>
-                <input type="text" id="lname" name="lname">
-                <pre>
-
-
-                </pre>
-                <h4>Información Inicio de Sesión</h4>
-                <pre>
-
-
-                </pre>
-                <label for="email" class="text">Correo Electrónico:</label>
-                <pre>
-                </pre>
-                <input type="email" id="email" name="email">
-                <pre>
-                </pre>
-                <label for="pwd" class="text">Contraseña:</label>
-                <pre>
-                </pre>
-                <input type="password" id="pwd" name="pwd">
-                <pre>
-                </pre>
+            <h3>Información Personal:</h3>       
+            <form action="login" method="post">
+                <label for="nombre" class="text">Nombre:</label>
+                <label for="policy-text" class="policy-text"></label> 
+                <input type="text" id="nombre" name="nombre"  required>
+                <label for="policy-text" class="policy-text"></label> 
+                <label for="apellidos" class="text">Apellidos:</label>
+                <label for="policy-text" class="policy-text"></label> 
+                <input type="text" id="apellidos" name="apellidos" required>
+                <label for="policy-text" class="policy-text"></label>   
                 <label for="policy-text" class="policy-text"></label>
-                <input type="checkbox" id="policy-text " name="policy-text" required> ¿Olvidaste la contraseña?
             </form>
+            <h3>Información Inicio de Sesión:</h3>
+            <form action="login" method="post">
+                <label for="email" class="text">Correo Electrónico:</label>
+                <label for="policy-text" class="policy-text"></label> 
+                <input type="email" id="email" name="email" required>
+                <label for="policy-text" class="policy-text"></label> 
+                <label for="password" class="text">Contraseña:</label>
+                <label for="policy-text" class="policy-text"></label> 
+                <input type="password" id="password" name="password" required>
+                <label for="policy-text" class="policy-text"></label>   
+                <label for="password" class="text">Confirmar Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+            </form>
+           
+            <div>
+                <input type="checkbox" id="policy-text " name="policy-text" required> Mostrar contraseña
+                <label for="policy-text" class="policy-text"></label>
+            </div>
         </div>
-        <div class="center">
-            <pre>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            </pre>
-            <label for="email" class="text">Confirmar contraseña:</label>
-            <input type="email" id="email" name="email">
-        </div>
+      
+        
         <div class="register">
-            <pre>
-
-
-
-
-
-
-
-
-
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-            </pre>
-            
             <button onclick= "location.href='/register';">Crear Cuenta</button>
-            <pre>
-            </pre>
             <p>Tus datos personales se utilizarán para procesar tu pedido, mejorar tu experiecia</p>
+            <pre></pre>
             <p>en esta web, gestionar el accesoa tu cuenta y otros propósitos descritos en nuestra</p>
+            <pre></pre>
             <p>política de prvacidad.</p>
+         
         </div>
     </div>
 
