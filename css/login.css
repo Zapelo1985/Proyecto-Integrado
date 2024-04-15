@@ -386,7 +386,7 @@ input-text{
 
 @media (max-width: 767px) {
     .logo {
-      margin-left: 0;
+      margin-left: 40%;
     }
   
     .logo2 {
@@ -396,6 +396,7 @@ input-text{
     .menu2 {
       flex-direction: column;
       align-items: center;
+      display: none;
     }
   
     .menu2 a {
@@ -404,18 +405,23 @@ input-text{
   
     .container {
       flex-direction: column;
-      align-items: center;
+      align-items: left;
     }
   
     .login {
       width: 80%;
       margin-bottom: 1em;
     }
+
+    .login input[type="email"], .login input[type="password"] {
+        margin-right: 10em; /* Add right margin to input elements */
+    }
   
     .register {
       width: 80%;
       margin-left: auto;
       margin-right: auto;
+      display: none;
     }
   
     .items-container {
@@ -426,6 +432,10 @@ input-text{
     .item {
       width: 80%;
     }
+
+    footer {
+        display: none;
+    }
   
     .vertical-border {
       border-right: none;
@@ -435,5 +445,6 @@ input-text{
   
     .contacto-footer {
       padding-left: 0;
+      display: none;
     }
   }
