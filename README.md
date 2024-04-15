@@ -1,1 +1,1 @@
-Carpeta donde se desarrola los HTMLs de Register y Login
+Carpeta donde se desarrolla los HTMLs de Register y Login
