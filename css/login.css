@@ -384,24 +384,42 @@ input-text{
     
 }
 
-@media (max-width: 767px) {
-    .logo {
-      margin-left: 40%;
+@media (max-width: 768px) {
+    .head {
+        height: 5em;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color:#29c224;
+        justify-content: center;
     }
-  
-    .logo2 {
-      margin-right: 0;
+
+    .menu2{
+        display: none;
     }
-  
-    .menu2 {
-      flex-direction: column;
-      align-items: center;
-      display: none;
+
+    .products-container{
+        display: block;
     }
-  
-    .menu2 a {
-      padding: 0.5em;
+
+    .logo{
+        align-items: center;
     }
+
+    .logo2{
+        position: absolute;
+        left: 335px;
+    }
+
+    .logo2 .dropdown-icon{
+        position: absolute;
+        right: 350px;
+    }
+
+    .header{
+        display: none;
+    }
+
   
     .container {
       flex-direction: column;
@@ -411,11 +429,20 @@ input-text{
     .login {
       width: 80%;
       margin-bottom: 1em;
+      padding-left: 1em;
     }
 
     .login input[type="email"], .login input[type="password"] {
         margin-right: 10em; /* Add right margin to input elements */
     }
+
+    .login h1, .login h3 {
+        margin-left: -0.27em; /* Move the headings to the left */
+      }
+    
+      .login button {
+        margin-left: -1em; /* Move the button to the left */
+      }
   
     .register {
       width: 80%;
@@ -433,18 +460,19 @@ input-text{
       width: 80%;
     }
 
-    footer {
-        display: none;
+    .footer{
+        width: 100%;
     }
-  
-    .vertical-border {
-      border-right: none;
-      padding-left: 0;
-      margin-top: 0;
-    }
-  
-    .contacto-footer {
-      padding-left: 0;
-      display: none;
-    }
+
+    .tittle-footer{
+        font-size: 16px; 
+     }
+ 
+     .input-group{
+         margin-top: 20px;
+     }
+ 
+     .footer-content{
+         display: none;
+     }
   }
