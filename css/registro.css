@@ -1,0 +1,372 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        text-align: left;
+        font-family: Arial, sans-serif;
+        
+    }
+
+    .logo{
+        display: flex;
+        margin-left: 1.875em;
+    }
+
+    .logo img{
+        width:  3.125em;
+        height: 3.125em;
+    }
+
+    .logo2{
+        display: flex;
+        margin-right: 1.875em;
+    }
+
+    .logo2 img{
+        width: 2.5em;
+        margin-right: 0.3125em;
+    }
+
+
+    .head{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 4.375em;
+        background-color: #29c224;
+        position: fixed;
+        width: 100%;
+        z-index: 100%;
+        z-index: 2;
+        font-weight: bold; 
+        text-transform: uppercase;  /*Transforma en mayuscula*/
+        
+    }
+
+    .banner{
+        height: 60vh !important;
+        background: url(/img/banner.png) no-repeat center;  
+        background-attachment: fixed;   /*Para mover la foto scroll*/
+        background-size:cover;      /*cover: ocupa todo el ancho la imagen*/
+    }  
+
+
+    .menu2{
+        display: flex;
+        margin-right: 0.625em;
+    }
+
+    .menu2 a {
+        display: block;
+        padding: 1.25em 1.25em;
+        color: rgb(233, 231, 231);
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu2 a:hover{
+        background-color: #b5ecad;
+    }
+
+    .logo2 img:hover{
+        background-color: #b5ecad;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .header{
+        height: 30vh !important;
+        background: url(/img/banner.png);  
+        background-attachment: fixed;
+        background-size: contain;  /* Contain: ajusta la imagen dentro del contenedor */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+    }  
+
+    .content{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        text-align: left;
+        padding: 2rem;
+        border-radius: 5px;
+    }
+    
+    .login {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        width: 100%;
+        max-width: 33%;
+        padding: 2rem;
+    }
+    
+    .container h1 {
+        font-size: 2.5rem;
+        color: #333;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    
+    .container h3 {
+        font-size: 1.5rem;
+        color: #333;
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+    
+    .container label {
+        font-size: 1.2rem;
+        color: #333;
+        margin-bottom: 0.5rem;
+    }
+    
+    .container input[type="text"],
+    .container input[type="email"],
+    .container input[type="password"] {
+        width: 50%;
+        height: 2.5rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .container input[type="checkbox"] {
+        margin-right: 0.5rem;
+    }
+    
+    .container button {
+        width: 100%;
+        height: 2.5rem;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        margin-top: 2rem;
+        cursor: pointer;
+    }
+    
+    .container p {
+        font-size: 0.9rem;
+        color: #666;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        max-width: 33%;
+        margin: 2rem 0;
+    }
+    
+    .register {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        width: 100%;
+        max-width: 33%;
+    }
+    
+    .register button {
+        width: 25%;
+        height: 2.5rem;
+        background-color: #29c224;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        margin-top: 2rem;
+        cursor: pointer;
+    }
+
+    .page-footer{
+        border-bottom: 1px solid #9c9a9a;
+        background-color: #eee7e7;
+        margin-top: 5em;
+
+    }
+
+    .tittle-footer{
+        margin-top: 0.3em;
+    }
+
+
+    .btn{
+        width: auto;
+        padding: 0.25em 0.625em;
+        font-size: 1rem;
+        line-height: 1.2rem;
+        color: aliceblue;
+        background-color: rgb(35, 126, 206);
+        margin-top: 1.25em;
+        cursor: pointer;
+        border-radius: 0.5em;
+        margin-left: 1.25em;
+    }
+
+    .subscribe{
+        display: flex;
+        min-height: 3.75em;
+        justify-content: center;
+        padding: 2.5em;
+        margin-bottom: 1.25em;
+        
+    }
+
+    .policy-text {
+        margin-top: 0.93em;
+        color: #000;
+        display: block;
+    }
+
+    .input-text{
+        width: 18.75em; /* Ancho del cuadro de texto */
+        height: 1.87em; /* Altura del cuadro de texto */
+        font-size: 1rem; 
+    }
+
+
+    .policy-link {
+        color: rgb(35, 126, 206); /* Color azul para los enlaces */
+        text-decoration: none; /* Remueve el subrayado de los enlaces */
+    }
+
+    .policy-link:hover {
+        text-decoration: underline; /* Añade subrayado al pasar el ratón sobre el enlace */
+    }
+
+    .footer-content{
+        display: flex;
+        list-style: none none;
+        justify-content: center;
+        text-decoration: none;
+        width: 100%;
+        height: 6.25em;  
+    }
+
+    .footer-content h4{
+        text-transform: uppercase;
+    }
+
+    .footer-content ul li{
+        list-style: none;
+    }
+
+    .about-footer{
+        padding-right: 3.125em;
+        
+    }
+
+    .listas-about li a{
+        text-decoration: none;
+        color: #9c9a9a;
+        text-align: left;
+    }
+
+    .contacto-footer{
+        padding-left: 10em;
+    
+        
+    }
+    .social-icons{
+        display: flex;
+        width: 1.15em;
+        height: 1.1em;
+        margin: 0.1em;
+    }
+
+
+    .vertical-border {
+        display: flex;
+        border-right: 0.09em solid #9c9a9a;
+        padding-left: 6.2em;
+        margin-top: -2.1em;
+        
+    }
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        margin-left: 45%;
+    }
+    
+    .logo2 {
+        margin-right: 0;
+    }
+    
+    .menu2 {
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+    
+    .menu2 a {
+        padding: 0.5em;
+    }
+
+    .password {
+        display: none;
+    }
+
+    .login, .center {
+        width: 60%; /* Set the width to 60% of the original size */
+        margin: 0 auto; /* Center the divs horizontally */
+        box-sizing: border-box; /* Include padding and border in the width calculation */
+      }
+      
+      .login * , .center * {
+        box-sizing: border-box; /* Apply box-sizing to all child elements */
+      }
+
+       
+    .login form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+      .login label {
+        margin-bottom: 0.5rem;
+      }
+    
+      .login input {
+        margin-bottom: 1rem;
+      }
+
+    .login input[type="email"], .login input[type="password"] {
+        margin-right: 10em; /* Add right margin to input elements */
+    }
+
+    .login h1, .login h3 {
+        margin-left: -0.27em; /* Move the headings to the left */
+      }
+    
+      .login button {
+        margin-left: -1em; /* Move the button to the left */
+      }
+    
+      .center {
+        margin-top: 0;
+        margin-left: 0;
+        order: 1;
+      }
+    
+    }
