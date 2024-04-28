@@ -17,7 +17,7 @@
         </div>
             
         <nav class="menu2">
-            <a href="#">Inicio</a>
+            <a href="/index.html">Inicio</a>
             <a href="#">Novedades</a>
             <a href="#">Ofertas</a>
             <a href="#">Catalogo</a>
@@ -43,7 +43,7 @@
             
             
             
-            <form class="formulario1" action="login" method="post">
+            <form class="formulario1" action="/login" method="post">
                 <label for="email" class="text">Correo electrónico:</label>
                 <input type="email" id="email" name="email" class="square" required>
                 <pre>
@@ -57,8 +57,8 @@
                 <button type="submit">Iniciar Sesión</button>
             </form>
         </div>
-    
-        <div class="register">
+
+        <form class="register" action="/register.html">
             <pre>
             </pre> 
             <p>Todavía no tienes cuenta:</p>
@@ -81,10 +81,11 @@
             <p>descuentos en tus siguientes compras.</p>
             <pre>
 
-            </pre>     
-    
-             <button onclick= "location.href='/register';">Crear Cuenta</button>
-        </div>
+            </pre>
+
+            <button type="submit">Registrarse</button>
+
+        </form>
     </div>
 
 </body>
