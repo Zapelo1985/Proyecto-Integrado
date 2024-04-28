@@ -99,6 +99,10 @@ const getRegistro = (req, res) => {
     res.render('register');
 };
 
+const getContact = (req, res) => {
+    res.render('contact');
+};
+
 const getLogin = (req, res) => {
     res.render('login');
 };
@@ -148,6 +152,6 @@ module.exports = {
     getRegistro,
     postRegister,
     getPerfil,
-    getLogin
-
+    getLogin,
+    getContact
 };
