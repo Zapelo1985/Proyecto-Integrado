@@ -164,6 +164,7 @@ body {
     border-radius: 0.625em;
     border: none;
     padding: 0.625em 1.25em;
+    cursor: pointer;
 }
 
 /* Estilos para la sección de registro */
@@ -188,7 +189,7 @@ body {
     border: none;
     padding: 0.625em 1.25em;
     text-align: center;
-
+    cursor: pointer;
 }
 
 input-text {
@@ -401,7 +402,15 @@ input-text {
     margin-top: 3em;
 }
 
-
+.my-button {
+    background-color: #28A745;
+    color: white;
+    border-radius: 0.625em;
+    border: none;
+    padding: 0.625em 1.25em;
+    text-align: center;
+    text-decoration: none;
+}
 
 
 
