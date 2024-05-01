@@ -47,7 +47,7 @@ body{
 
 .banner{
     height: 60vh !important;
-    background: url(/img/banner.png) no-repeat center;  
+    background: url(./images/banner.png) no-repeat center;  
     background-attachment: fixed;   /*Para mover la foto scroll*/
     background-size:cover;      /*cover: ocupa todo el ancho la imagen*/
 }  
