@@ -89,6 +89,11 @@ body{
     background-repeat: no-repeat; /* Evita que la imagen se repita */
 }  
 
+
+
+
+
+
 .content{
     display: flex;
     flex-direction: column;

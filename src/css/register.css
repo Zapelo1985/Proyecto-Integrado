@@ -40,8 +40,7 @@
     background-color: #29c224;
     position: fixed;
     width: 100%;
-    z-index: 100%;
-    z-index: 2;
+    z-index: 1000;
     font-weight: bold;
     text-transform: uppercase;
 
@@ -112,6 +111,7 @@
     border-radius: 5px;
     position: relative;
     top: 1em;
+    z-index: 1;
 }
 
 
