@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.logo {
+    display: flex;
+    margin-left: 1.87em;
+}
+
+.logo img {
+    width: 3.1em;
+    height: 3.1em;
+}
+
+.logo2 {
+    display: flex;
+    margin-right: 1.87em;
+}
+
+.logo2 img {
+    width: 2.5em;
+    margin-right: 0.31em;
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4.37em;
+    background-color: #29c224;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    font-weight: bold;
+    text-transform: uppercase;
+    /*Transforma en mayuscula*/
+
+}
+
+.banner {
+    height: 60vh !important;
+    background: url(/img/banner.png) no-repeat center;
+    background-attachment: fixed;
+    /*Para mover la foto scroll*/
+    background-size: cover;
+    /*cover: ocupa todo el ancho la imagen*/
+}
+
+
+.menu2 {
+    display: flex;
+    margin-right: 0.62em;
+}
+
+.menu2 a {
+    display: block;
+    padding: 1.25em 1.25em;
+    color: rgb(233, 231, 231);
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu2 a:hover {
+    background-color: #b5ecad;
+}
+
+.logo2 img:hover {
+    background-color: #b5ecad;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+
+.header {
+    height: 30vh !important;
+    background: url(/img/banner.png);
+    background-attachment: fixed;
+    background-size: contain;
+    /* para ajustar imagen en el contenedor */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* Alinea los elementos al inicio del contenedor */
+    padding-top: 8em;
+    /* Ajusta el espacio superior para separarlo del menú */
+    margin-right: 1100px;
+}
+
+
+
+
+
+
+
+/*AÑADIDO DE TODO*/
+
+
+
+
+table {
+    width: 43.75em;
+    position: relative;
+    border-collapse: collapse;
+    display: flex;
+    margin-left: 59.3em;
+}
+
+th,
+td {
+    padding: 0.81em;
+    text-align: center;
+}
+
+th {
+    background-color: #dbdbdb;
+}
+
+td {
+    background-color: #f7f6f6;
+}
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.table-container {
+    display: flex;
+}
+
+
+.content-products2 {
+    display: flex;
+    position: relative;
+    left: 3.125em;
+    margin-top: 1.875em;
+}
+
+.image-title {
+    position: relative;
+    padding: 1.25em;
+    font-size: 1.875em;
+    right: 1.25em;
+}
+
+.product-price {
+    position: relative;
+    color: rgb(11, 184, 236);
+    font-weight: 550;
+    font-size: 3.125em;
+    right: 1.875em;
+}
+
+.buy-button {
+    background-color: rgb(1, 136, 253);
+    border: none;
+    color: aliceblue;
+    padding: 0.3125em 1.875em;
+    cursor: pointer;
+    border-radius: 0.5em;
+    margin-top: 1.25em;
+    margin-right: 4.375em;
+
+}
+
+.buy-button img {
+    width: 1.125em;
+    height: 0.9375em;
+    margin-right: 3.125em;
+}
+
+.descripcion {
+    margin-top: 2.5em;
+    margin-left: 5em;
+}
+
+pre {
+    font-family: inherit;
+    padding: 0.625em;
+    margin: 0.625em;
+    width: 31.25em;
+}
+
+
+
+
+
+/*AÑADIDO DE TODO*/
+
+
+
+
+.page-footer {
+    border-bottom: 0.0625em solid #9c9a9a;
+    background-color: #eee7e7;
+    margin-top: 3.75em;
+
+}
+
+.tittle-footer {
+    margin-top: 0.3em;
+}
+
+
+.btn {
+    width: auto;
+    padding: 0.25em 0.625em;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: aliceblue;
+    background-color: rgb(35, 126, 206);
+    margin-top: 1.25em;
+    cursor: pointer;
+    border-radius: 0.5em;
+    margin-left: 1.25em;
+}
+
+.subscribe {
+    display: flex;
+    min-height: 3.75em;
+    justify-content: center;
+    padding: 2.5em;
+    margin-bottom: 1.25em;
+
+}
+
+.policy-text {
+    margin-top: 0.93em;
+    color: #000;
+    display: block;
+}
+
+.input-text {
+    width: 18.75em;
+    height: 1.87em;
+    font-size: 1rem;
+}
+
+
+.policy-link {
+    color: rgb(35, 126, 206);
+    text-decoration: none;
+}
+
+.policy-link:hover {
+    text-decoration: underline;
+}
+
+.footer-content {
+    display: flex;
+    list-style: none none;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    height: 6.25em;
+}
+
+.footer-content h4 {
+    text-transform: uppercase;
+}
+
+.footer-content ul li {
+    list-style: none;
+}
+
+.about-footer {
+    padding-right: 3.125em;
+
+}
+
+.listas-about li a {
+    text-decoration: none;
+    color: #9c9a9a;
+    text-align: left;
+}
+
+.listas-about {
+    margin-top: 0.1875em;
+}
+
+.contacto-footer {
+    padding-left: 10em;
+
+
+}
+
+.social-icons {
+    display: flex;
+    width: 1.15em;
+    height: 1.1em;
+    margin: 0.1em;
+    flex-direction: row;
+    /* Cambiar la dirección a vertical */
+    margin-top: 0.5em;
+
+
+}
+
+
+.vertical-border {
+    display: flex;
+    border-right: 0.09em solid #9c9a9a;
+    padding-left: 6.2em;
+    margin-top: -2.1em;
+
+}
+
+.dropdown-icon {
+    display: none;
+}
+
+.points-icon {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .tabla {
+        padding-top: 5em;
+        margin-right: 7.5em;
+    }
+
+    table {
+        width: 31.25em;
+        margin-left: 42.5em;
+    }
+
+    .content-products2 {
+        left: 3.125em;
+    }
+
+    .image-title {
+        font-size: 1.875em;
+        right: 1.25em;
+    }
+
+    .product-price {
+        font-size: 3.125em;
+        right: 1.875em;
+    }
+
+    .buy-button {
+        margin-right: 4.375em;
+    }
+
+    .descripcion {
+        margin-top: 2.5em;
+        margin-left: 5em;
+    }
+
+    pre {
+        width: 18.75em;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    table {
+        width: 40em;
+        margin-left: 10em;
+        margin-top: 0.8em;
+    }
+
+    .product-price {
+        left: 0em;
+    }
+
+    .image-title {
+        right: 0em;
+    }
+
+    .buy-button {
+        padding: 0.7em 2.2em;
+        border-radius: 0.5em;
+        margin-top: 1.2em;
+        margin-right: 4.3em;
+
+    }
+
+    .buy-button img {
+        width: 1.3em;
+        height: 1.3em;
+    }
+
+    pre {
+        padding: 0.6em;
+        width: 20em;
+        margin-top: 12.5em;
+        right: 27.5em;
+        position: relative;
+    }
+
+}

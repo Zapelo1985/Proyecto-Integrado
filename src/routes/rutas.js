@@ -13,6 +13,7 @@ router
     .get('/contact',enlaceController.getContact)
     .get('/login',enlaceController.getLogin)
     .get('/register',enlaceController.getRegister)
+    .get('/sacamuelas',enlaceController.getSacamuelas)
     
 module.exports = router;
    

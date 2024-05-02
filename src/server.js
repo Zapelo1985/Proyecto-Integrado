@@ -22,6 +22,7 @@ app.use(express.static(__dirname));
 app.set('view engine', 'ejs');
 app.set('views', './src/views');
 
+
 // Routes
 app.use('/', loginRoutes);
 

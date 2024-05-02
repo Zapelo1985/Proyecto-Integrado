@@ -27,6 +27,10 @@ const getLogin = (req, res) => {
     res.render('login');
 };
 
+const getSacamuelas = (req, res) => {
+    res.render('products/sacamuelas');
+};
+
 
 
 module.exports = {
@@ -36,6 +40,7 @@ module.exports = {
     getRegister,
     getLogin,
     getCatalogue,
-    getContact
+    getContact,
+    getSacamuelas
 
 }
