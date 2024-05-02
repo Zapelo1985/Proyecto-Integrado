@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+.logo{
+    display: flex;
+    margin-left: 1.87em;
+}
+
+.logo img{
+    width:  3.1em;
+    height: 3.1em;
+}
+
+.logo2{
+    display: flex;
+    margin-right: 1.87em;
+}
+
+.logo2 img{
+    width: 2.5em;
+    margin-right: 0.31em;
+}
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4.37em;
+    background-color: #29c224;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+    font-weight: bold; 
+    text-transform: uppercase;  /*Transforma en mayuscula*/
+      
+}
+
+.banner{
+    height: 60vh !important;
+    background: url(./images/banner.png) no-repeat center;  
+    background-attachment: fixed;   /*Para mover la foto scroll*/
+    background-size:cover;      /*cover: ocupa todo el ancho la imagen*/
+}  
+
+
+.menu2{
+    display: flex;
+    margin-right: 0.62em;
+}
+
+.menu2 a {
+    display: block;
+    padding: 1.25em 1.25em;
+    color: rgb(233, 231, 231);
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu2 a:hover{
+    background-color: #b5ecad;
+}
+
+.logo2 img:hover{
+    background-color: #b5ecad;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+
+.header{
+    height: 30vh !important;
+    background: url(/img/banner.png);  
+    background-attachment: fixed;
+    background-size: contain;  /* para ajustar imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}  
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-container {
+    display: flex;
+    justify-content: space-between; /* Alinea los productos uno al lado del otro */
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+}
+
+
+.cube {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ccc; /* gray color */
+    justify-content: flex-start; /* Alinea los elementos a la izquierda */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    list-style: none; /* Quita la numeración de la lista */
+
+}
+  
+.cube li {
+    width: calc(100% - 20px); /* Ajusta el ancho para ocupar el 100% del contenedor y elimina el margen */
+    margin: 10px; /* Elimina el margen horizontal y establece un margen vertical */
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+  
+.cube li:hover {
+    background-color: #f0f0f0;
+}
+
+
+.content-products{
+    display: flex;  /*diseño cuadricula*/
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1.56em;
+    margin-top: 1.56em;
+    width: 90%;
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+    margin-top: 7em;
+    
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.table-container {
+    flex-basis: 30%;
+    margin-top: 6.5em;
+}
+
+.catalog-section {
+    flex-basis: 65%;
+}
+
+.table {
+    background-color: #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 1.2em;  
+}
+
+.table-subtitle{
+    margin-top: 0.2em;
+}
+
+.table li{
+    cursor: pointer;
+}
+
+.table ol {
+    list-style: none;
+    padding: 10px;
+}
+
+.table ol li {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.title-catalog{
+    width: 100%;
+    display: flex;
+    padding: 1em;
+    margin-bottom: 1.3em;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.title-catalog select {
+    padding: 4.5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.title-catalog p {
+    margin-left: 705px; 
+}
+
+
+
+.most-sold {
+    background-color: #29c224;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+.items-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+
+
+.container-img {
+    overflow: hidden; /* Evita que las imágenes se desborden */
+}
+
+.item{
+    border-radius:  0.62em;
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    margin: 0 1.25em 1.25em;
+
+}
+.item:hover{
+    box-shadow: 0 0.625em 1.25em black;
+}
+
+.producto:last-child {
+    margin-right: 0; /* No aplicar margen a último elemento */
+}
+
+.info-product{
+    padding: 0.93em 1.87em;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.62em;
+}
+
+.price{
+    font-size: 1em;
+    font-weight: 750;
+}
+
+.info-product button{
+    border: none;
+    background: none;
+    background-color: black;
+    color: white;
+    padding: 0.93em 0.625em;
+    cursor: pointer;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.625em 0.625em 0 0; /* Mantenemos el borde redondeado solo en la parte superior */
+}
+
+.page-footer{
+    border-bottom: 0.0625em solid #9c9a9a;
+    background-color: #eee7e7;
+    margin-top: 3.75em;
+
+}
+
+.tittle-footer{
+    margin-top: 0.3em;
+}
+
+
+.btn{
+    width: auto;
+    padding: 0.25em 0.625em;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: aliceblue;
+    background-color: rgb(35, 126, 206);
+    margin-top: 1.25em;
+    cursor: pointer;
+    border-radius: 0.5em;
+    margin-left: 1.25em;
+}
+
+.subscribe{
+    display: flex;
+    min-height: 3.75em;
+    justify-content: center;
+    padding: 2.5em;
+    margin-bottom: 1.25em;
+    
+}
+
+.policy-text {
+    margin-top: 0.93em;
+    color: #000;
+    display: block;
+}
+
+.input-text{
+    width: 18.75em; /* Ancho del cuadro de texto */
+    height: 1.87em; /* Altura del cuadro de texto */
+    font-size: 1rem; 
+}
+
+
+.policy-link {
+    color: rgb(35, 126, 206); /* Color azul para los enlaces */
+    text-decoration: none; /* Remueve el subrayado de los enlaces */
+}
+
+.policy-link:hover {
+    text-decoration: underline; /* Añade subrayado al pasar el ratón sobre el enlace */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-footer{
+    border-bottom: 0.0625em solid #9c9a9a;
+    background-color: #eee7e7;
+    margin-top: 3.75em;
+
+}
+
+.tittle-footer{
+    margin-top: 0.3em;
+}
+
+
+.btn{
+    width: auto;
+    padding: 0.25em 0.625em;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: aliceblue;
+    background-color: rgb(35, 126, 206);
+    margin-top: 1.25em;
+    cursor: pointer;
+    border-radius: 0.5em;
+    margin-left: 1.25em;
+}
+
+.subscribe{
+    display: flex;
+    min-height: 3.75em;
+    justify-content: center;
+    padding: 2.5em;
+    margin-bottom: 1.25em;
+    
+}
+
+.policy-text {
+    margin-top: 0.93em;
+    color: #000;
+    display: block;
+}
+
+.input-text{
+    width: 18.75em; /* Ancho del cuadro de texto */
+    height: 1.87em; /* Altura del cuadro de texto */
+    font-size: 1rem; 
+}
+
+
+.policy-link {
+    color: rgb(35, 126, 206); /* Color azul para los enlaces */
+    text-decoration: none; /* Remueve el subrayado de los enlaces */
+}
+
+.policy-link:hover {
+    text-decoration: underline; /* Añade subrayado al pasar el ratón sobre el enlace */
+}
+
+.footer-content{
+    display: flex;
+    list-style: none none;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    height: 6.25em;  
+}
+
+.footer-content h4{
+    text-transform: uppercase;
+}
+
+.footer-content ul li{
+    list-style: none;
+}
+
+.about-footer{
+    padding-right: 3.125em;
+    
+}
+
+.listas-about li a{
+    text-decoration: none;
+    color: #9c9a9a;
+    text-align: left;
+}
+
+.listas-about{
+    margin-top: 0.1875em ;
+}
+
+.contacto-footer{
+    padding-left: 10em;
+   
+    
+}
+.social-icons{
+    display: flex;
+    width: 1.15em;
+    height: 1.1em;
+    margin: 0.1em;
+    flex-direction: row; /* Cambiar la dirección a vertical */
+    margin-top: 0.5em;
+    
+    
+}
+
+
+.vertical-border {
+    display: flex;
+    border-right: 0.09em solid #9c9a9a;
+    padding-left: 6.2em;
+    margin-top: -2.1em;
+    
+}
+
+.dropdown-icon{
+    display: none;
+}
+
+.points-icon{
+    display: none;
+}
