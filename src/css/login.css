@@ -159,6 +159,7 @@ body{
     border-radius: 0.625em;
     border: none;
     padding: 0.625em 1.25em;
+    cursor: pointer;
 }
 
 /* Estilos para la sección de registro */
@@ -183,6 +184,7 @@ body{
     border: none;
     padding: 0.625em 1.25em;
     text-align: center;
+    cursor: pointer;
 
 }
 
@@ -470,6 +472,7 @@ body{
         margin: auto;
         width: 100%;
         max-width: 25em;
+        
     }
 
     .login input[type="email"],
