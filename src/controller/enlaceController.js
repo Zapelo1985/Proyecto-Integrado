@@ -32,6 +32,47 @@ const getSacamuelas = (req, res) => {
 };
 
 
+const getTragaBolas = (req, res) => {
+    res.render('products/tragabolas');
+};
+
+const getRisk = (req, res) => {
+    res.render('products/risk');
+};
+
+const getPruebaOVerdad = (req, res) => {
+    res.render('products/prueba_o_verdad');
+};
+
+const getNemesis = (req, res) => {
+    res.render('products/nemesis');
+};
+
+const getMonosLocos = (req, res) => {
+    res.render('products/monos_locos');
+};
+
+const getDragonkeeper = (req, res) => {
+    res.render('products/news/dragonkeeper');
+};
+
+const getDungeon = (req, res) => {
+    res.render('products/news/dungeon');
+};
+
+const getHumedal = (req, res) => {
+    res.render('products/news/humedal');
+};
+
+const getSkyrim = (req, res) => {
+    res.render('products/news/skyrim');
+};
+
+
+
+
+
+
 
 module.exports = {
     getIndex,
@@ -41,6 +82,15 @@ module.exports = {
     getLogin,
     getCatalogue,
     getContact,
-    getSacamuelas
+    getSacamuelas,
+    getTragaBolas,
+    getRisk,
+    getPruebaOVerdad,
+    getNemesis,
+    getMonosLocos,
+    getDragonkeeper,
+    getDungeon,
+    getHumedal,
+    getSkyrim
 
 }

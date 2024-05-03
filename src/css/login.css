@@ -117,9 +117,11 @@ body{
 
 }
 
-
-.login h3, h1 {
+.login h1,
+.login h3 {
     color: #333;
+
+
 }
 
 .login label {
@@ -151,24 +153,15 @@ body{
 }
 
 
-
-
-
-
-/* TRABAJANDO */
-
-
-
-
-
-
-
-pre {
-    font-family: inherit;
-    padding: 0.625em;
-    margin: 0.625em;
-    width: 31.25em;
+.login button {
+    background-color: #28A745;
+    color: white;
+    border-radius: 0.625em;
+    border: none;
+    padding: 0.625em 1.25em;
 }
+
+/* Estilos para la sección de registro */
 
 .register {
     display: block;
@@ -190,47 +183,8 @@ pre {
     border: none;
     padding: 0.625em 1.25em;
     text-align: center;
-    cursor: pointer;
 
 }
-
-
-
-
-
-
-/* TRABAJANDO */
-
-
-
-
-
-
-
-
-
-.login button {
-    background-color: #28A745;
-    color: white;
-    border-radius: 0.625em;
-    border: none;
-    padding: 0.625em 1.25em;
-    cursor: pointer;
-}
-
-.login h3{
-    margin-top: 1.25em;
-}
-
-.login form{
-    margin-top: 2.8em;
-}
-
-
-
-/* Estilos para la sección de registro */
-
-
 
 .input-text {
     width: 18.75rem;
@@ -516,7 +470,6 @@ pre {
         margin: auto;
         width: 100%;
         max-width: 25em;
-        
     }
 
     .login input[type="email"],

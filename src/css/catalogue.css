@@ -114,9 +114,9 @@ body{
     flex-wrap: wrap;
     background-color: #ccc; /* gray color */
     justify-content: flex-start; /* Alinea los elementos a la izquierda */
-    padding: 0.625em;
-    border-radius: 0.625em;
-    box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     list-style: none; /* Quita la numeración de la lista */
 
 }
@@ -125,9 +125,9 @@ body{
     width: calc(100% - 20px); /* Ajusta el ancho para ocupar el 100% del contenedor y elimina el margen */
     margin: 10px; /* Elimina el margen horizontal y establece un margen vertical */
     background-color: #fff;
-    padding: 0.625em;
-    border-radius: 0.312em;
-    box-shadow: 0 0 312em rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
   
 .cube li:hover {
@@ -156,7 +156,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 1.25em;
+    padding: 20px;
 }
 
 .table-container {
@@ -170,9 +170,9 @@ body{
 
 .table {
     background-color: #ccc;
-    border-radius: 0.625em;
-    box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.2);
-    margin-top: 0.75em; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 1.2em;  
 }
 
 .table-subtitle{
@@ -185,15 +185,15 @@ body{
 
 .table ol {
     list-style: none;
-    padding: 0.625em;
+    padding: 10px;
 }
 
 .table ol li {
     background-color: #fff;
-    padding: 0.625em;
-    border-radius: 0.312em;
-    box-shadow: 0 0 0.312em rgba(0, 0, 0, 0.1);
-    margin-bottom: 0.625em;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
 }
 
 
@@ -210,14 +210,14 @@ body{
 }
 
 .title-catalog select {
-    padding: 0.281em;
-    font-size: 1em;
-    border-radius: 0.312em;
-    border: 0.0625em solid #ccc;
+    padding: 4.5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 .title-catalog p {
-    margin-left: 43.812em; 
+    margin-left: 705px; 
 }
 
 
@@ -225,11 +225,11 @@ body{
 .most-sold {
     background-color: #29c224;
     color: white;
-    padding: 0.625em 1.25em;
+    padding: 10px 20px;
     border: none;
-    border-radius: 0.312em;
+    border-radius: 5px;
     cursor: pointer;
-    font-size: 1em;
+    font-size: 16px;
 }
 
 
@@ -237,7 +237,7 @@ body{
 .items-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 0.625em;
+    gap: 20px;
     
 }
 
@@ -480,8 +480,6 @@ body{
 .points-icon{
     display: none;
 }
-
-
 @media only screen and (max-width: 768px) {
     .head {
         flex-direction: column;

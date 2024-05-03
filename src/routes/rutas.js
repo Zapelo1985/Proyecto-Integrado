@@ -14,6 +14,17 @@ router
     .get('/login',enlaceController.getLogin)
     .get('/register',enlaceController.getRegister)
     .get('/sacamuelas',enlaceController.getSacamuelas)
+    .get('/risk',enlaceController.getRisk)
+    .get('/nemesis',enlaceController.getNemesis)
+    .get('/monos_locos',enlaceController.getMonosLocos)
+    .get('/prueba_o_verdad',enlaceController.getPruebaOVerdad)
+    .get('/tragabolas',enlaceController.getTragaBolas)
+    .get('/dragonkeeper',enlaceController.getDragonkeeper)
+    .get('/dungeon',enlaceController.getDungeon)
+    .get('/skyrim',enlaceController.getSkyrim)
+    .get('/humedal',enlaceController.getHumedal)
+  
+
     
 module.exports = router;
    
