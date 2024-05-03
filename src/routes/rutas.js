@@ -23,6 +23,7 @@ router
     .get('/dungeon',enlaceController.getDungeon)
     .get('/skyrim',enlaceController.getSkyrim)
     .get('/humedal',enlaceController.getHumedal)
+
   
 
     

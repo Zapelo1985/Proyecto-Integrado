@@ -18,20 +18,20 @@
         </div>
             
         <nav class="menu2">
-            <a href="index.html">Inicio</a>
-            <a href="offers.html">Ofertas</a>
-            <a href="news.html">Novedades</a>
-            <a href="catalogue.html">Catalogo</a>
-            <a href="contact.html">Contacto</a>
+            <a href="/">Inicio</a>
+            <a href="/offers">Ofertas</a>
+            <a href="/news">Novedades</a>
+            <a href="/catalogue">Catalogo</a> 
+            <a href="/contact">Contacto</a>
             
         </nav>
 
         <div class="logo2">
             <div class="dropdown-icon">
-                <img src="/images/desplegable.png" alt="Desplegable">
+                <img src="./images/desplegable.png" alt="Desplegable">
             </div>
-            <a href="./login.html"><img src="/images/user.png" alt="icono para iniciar/registrarse"></a>
-            <a href="#"><img class="carro" src="/images/carro.png" alt="carro de compra"></a>
+            <a href="/login"><img src="./images/user.png" alt="icono para iniciar/registrarse"></a>
+            <a href="#"><img class="carro" src="./images/carro.png" alt="carro de compra"></a>
         </div>
 
     </div>
@@ -118,7 +118,9 @@
             <h2 class="image-title">Humedal</h2>
             <p class="product-price">31.50€</p>
             <button class="buy-button">
-                <img src="/images/carro.png" alt="Añadir al carrito">
+                <img src="../images/carro.png">
+                <span class="button-text">Añadir al carrito</span>
+                
             </button>
             
             <div class="descripcion">
@@ -135,11 +137,82 @@
             </div>
 
         </section>
-    </section>
-
-
-
-
-   
+    </section> 
 
 </div>
+
+<footer>
+    <div class="page-footer">
+
+        <div class="subscribe">
+            
+            <form action="suscribirse">
+                
+                <h2 class="tittle-footer">Recibe las ultimas novedades y ofertas</h2>
+
+                <div class="input-group">
+                    
+                    <input type="text" name="email" id="email" placeholder="*email" class="input-text">
+
+                    <input class="btn" type="submit" value="Suscríbete">
+                    
+                    <label for="policy-text" class="policy-text">
+                        
+                        <input type="checkbox" id="policy-text " name="policy-text" required> Acepto la <a href="#" class="policy-link"> Política de Privacidad y el Aviso Legal </a>.
+                    </label>
+                        
+
+                </div>
+            </form>
+
+        </div>
+         
+    </div>
+
+    <br><br>
+
+
+    <div class="footer-content">
+        <div class="about-footer">
+            <h4 class="tittle-footer">ACERCA DE HABITGAMES</h4>
+            <ul class="listas-about">
+                <li>
+                    <a href="#"><h5>Quiénes somos</h5></a>
+                </li>
+                <li>
+                    <a href="#"><h5>Gastos de envío</h5></a>
+                </li>
+                <li>
+                    <a href="#"><h5>Devoluciones</h5></a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="vertical-border">
+
+        </div>
+        <div class="contacto-footer">
+            <h4 class="tittle-footer">CONTACTANOS</h4>
+            <ul class="listas-about">
+                <li>
+                    <a href="/contact"><h5>Escribenos</h5></a>
+                    
+                    <div class="social-icons">
+                        <img src="../images/iconos social/whatsapp.png" alt="Whatsapp">
+                        <img src="../images/iconos social/instagram.png" alt="Instagram">
+                        <img src="../images/iconos social/facebook.png" alt="Facebook">
+                        <img src="../images/iconos social/twitter.png" alt="Twitter">
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+       
+
+    </div>
+
+
+
+
+</footer>
+</html>

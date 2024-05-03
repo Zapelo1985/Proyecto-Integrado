@@ -35,6 +35,7 @@
 
     </div>
 
+   
     <div class="container">
         <div class="login">
             
@@ -45,40 +46,37 @@
             <form action="/login" method="post">
                 <label for="email" class="text">Correo electrónico:</label>
                 <input type="email" id="email" name="email" required>
-                <pre>
-
-                </pre>
                 <label for="password" class="text">Contraseña:</label>
                 <input type="password" id="password" name="password" required>
                 <label for="policy-text" class="policy-text"></label>   
-                <input type="checkbox" id="policy-text " name="policy-text" required> ¿Olvidaste la contraseña?
+                <input type="checkbox" id="policy-text" required> ¿Olvidaste la contraseña?
                 <label for="policy-text" class="policy-text"></label>
                 <button type="submit">Iniciar Sesión</button>
             </form>
         </div>
     
         <div class="descripcion">
-            <p>Todavía no tienes cuenta:</p>
+            
             <pre>
+                Todavía no tienes cuenta:
+
                 Teniendo una cuenta te enterarás antes que nadie
                 de las novedades semanales, promociones exclusivas,
                 invitaciones a eventos, regalos y sorteos.
-
 
                 Podrás disfrutar de un descuento en nuestras tiendas
                 físicas de juegos de multitud de editoriales. Pregunta
                 en la tienda los juegos con promociones disponibles.
 
-
                 Acumularás Puntos cada vez que compres en
                 HABITGAMES. Los Puntos te permiten obtener
                 descuentos en tus siguientes compras.
-
+                <div class="register">
+                    <button onclick= "location.href='/register';">Crear Cuenta</button>
+        
+                </div>
             </pre>             
-            <div class="register">
-                <button onclick= "location.href='/register';">Crear Cuenta</button>
-    
-            </div>
+            
            
 
         </div>
@@ -91,7 +89,6 @@
         
 
     </div>
-
 </body>
 
 <footer>
@@ -152,13 +149,13 @@
             <h4 class="tittle-footer">CONTACTANOS</h4>
             <ul class="listas-about">
                 <li>
-                    <a href="#"><h5>Escribenos</h5></a>
+                    <a href="/contact"><h5>Escribenos</h5></a>
                     
                     <div class="social-icons">
-                        <img src="/img/iconos social/whatsapp.png" alt="Whatsapp">
-                        <img src="/img/iconos social/instagram.png" alt="Instagram">
-                        <img src="/img/iconos social/facebook.png" alt="Facebook">
-                        <img src="/img/iconos social/twitter.png" alt="Twitter">
+                        <img src="./images/iconos social/whatsapp.png" alt="Whatsapp">
+                        <img src="./images/iconos social/instagram.png" alt="Instagram">
+                        <img src="./images/iconos social/facebook.png" alt="Facebook">
+                        <img src="./images/iconos social/twitter.png" alt="Twitter">
                     </div>
                 </li>
             </ul>
