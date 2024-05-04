@@ -27,10 +27,13 @@ const getLogin = (req, res) => {
     res.render('login');
 };
 
+const getShopping = (req, res) => {
+    res.render('shopping');
+};
+
 const getSacamuelas = (req, res) => {
     res.render('products/sacamuelas');
 };
-
 
 const getTragaBolas = (req, res) => {
     res.render('products/tragabolas');
@@ -80,6 +83,7 @@ module.exports = {
     getOffers,
     getRegister,
     getLogin,
+    getShopping,
     getCatalogue,
     getContact,
     getSacamuelas,

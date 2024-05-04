@@ -41,7 +41,7 @@ body{
     width: 100%;
     z-index: 100%;
     font-weight: bold; 
-    text-transform: uppercase;  /*Transforma en mayuscula*/
+    text-transform: uppercase;
       
 }
 
@@ -75,8 +75,8 @@ body{
     height: 30vh !important;
     background: url(/images/banner.png);  
     background-attachment: fixed;
-    background-size: contain;  /* para ajustar imagen en el contenedor */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: contain;
+    background-repeat: no-repeat;
 }  
 
 .content{
@@ -88,13 +88,13 @@ body{
 
 .products-container {
     display: flex;
-    justify-content: space-between; /* Alinea los productos uno al lado del otro */
+    justify-content: space-between;
     margin-left: 1.25em;
     margin-right: 1.25em;
 }
 
 .content-products{
-    display: flex;  /*diseño cuadricula*/
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -138,13 +138,13 @@ body{
 
 
 .container-img {
-    overflow: hidden; /* Evita que las imágenes se desborden */
+    overflow: hidden;
 }
 
 .item{
     border-radius:  0.62em;
     display: flex;
-    flex-direction: column; /* Apila los elementos verticalmente */
+    flex-direction: column;
     margin: 0 1.25em 1.25em;
 
 }
@@ -153,7 +153,7 @@ body{
 }
 
 .producto:last-child {
-    margin-right: 0; /* No aplicar margen a último elemento */
+    margin-right: 0;
 }
 
 .info-product{
@@ -182,7 +182,7 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 0.625em 0.625em 0 0; /* Mantenemos el borde redondeado solo en la parte superior */
+    border-radius: 0.625em 0.625em 0 0;
 }
 
 
@@ -251,19 +251,19 @@ body{
 }
 
 .input-text{
-    width: 18.75em; /* Ancho del cuadro de texto */
-    height: 1.87em; /* Altura del cuadro de texto */
+    width: 18.75em;
+    height: 1.87em;
     font-size: 1rem; 
 }
 
 
 .policy-link {
-    color: rgb(35, 126, 206); /* Color azul para los enlaces */
-    text-decoration: none; /* Remueve el subrayado de los enlaces */
+    color: rgb(35, 126, 206);
+    text-decoration: none;
 }
 
 .policy-link:hover {
-    text-decoration: underline; /* Añade subrayado al pasar el ratón sobre el enlace */
+    text-decoration: underline;
 }
 
 .footer-content{
@@ -309,7 +309,7 @@ body{
     width: 1.15em;
     height: 1.1em;
     margin: 0.1em;
-    flex-direction: row; /* Cambiar la dirección a vertical */
+    flex-direction: row;
     margin-top: 0.5em;
     
     
@@ -364,12 +364,12 @@ body{
   
     .logo2{
         position: absolute;
-        left: 335px;
+        left: 20em;
     }
     
     .logo2 .dropdown-icon{
         position: absolute;
-        right: 350px;
+        right: 21.8em;
     }
 
    .header{
@@ -396,7 +396,7 @@ body{
     }
 
     .content-products{
-        margin-top: 130px;
+        margin-top: 8.12em;
     }
     
     .items-container .item:not(#sacamuelas){
@@ -425,11 +425,11 @@ body{
     }
 
     .tittle-footer{
-       font-size: 16px; 
+       font-size: 1em; 
     }
     
     .input-group{
-        margin-top: 20px;
+        margin-top: 1.25em;
     }
 
     .footer-content{

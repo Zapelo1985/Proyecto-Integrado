@@ -42,17 +42,13 @@ body {
     z-index: 9999;
     font-weight: bold;
     text-transform: uppercase;
-    /*Transforma en mayuscula*/
-
 }
 
 .banner {
     height: 60vh !important;
     background: url(/img/banner.png) no-repeat center;
     background-attachment: fixed;
-    /*Para mover la foto scroll*/
     background-size: cover;
-    /*cover: ocupa todo el ancho la imagen*/
 }
 
 
@@ -89,9 +85,7 @@ body {
     background: url(/img/banner.png);
     background-attachment: fixed;
     background-size: contain;
-    /* para ajustar imagen en el contenedor */
     background-repeat: no-repeat;
-    /* Evita que la imagen se repita */
 }
 
 .content {
@@ -105,24 +99,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    /* Alinea los elementos al inicio del contenedor */
     padding-top: 8em;
-    /* Ajusta el espacio superior para separarlo del menú */
-    margin-right: 1100px;
+    margin-right: 68.75em;
 }
-
-
 
 .content-products2 img#skyrim{
-    width: 350px;
+    width: 21.875em;
     height: auto;
-
 }
-
-
-
-/*AÑADIDO DE TODO*/
-
 
 
 
@@ -215,14 +199,6 @@ pre {
     margin: 0.625em;
     width: 31.25em;
 }
-
-
-
-
-
-/*AÑADIDO DE TODO*/
-
-
 
 
 .page-footer {

@@ -41,15 +41,15 @@ body{
     width: 100%;
     z-index: 100%;
     font-weight: bold; 
-    text-transform: uppercase;  /*Transforma en mayuscula*/
+    text-transform: uppercase;
       
 }
 
 .banner{
     height: 60vh !important;
     background: url(/img/banner.png) no-repeat center;  
-    background-attachment: fixed;   /*Para mover la foto scroll*/
-    background-size:cover;      /*cover: ocupa todo el ancho la imagen*/
+    background-attachment: fixed;
+    background-size:cover;
 }  
 
 
@@ -85,8 +85,8 @@ body{
     height: 30vh !important;
     background: url(/img/banner.png);  
     background-attachment: fixed;
-    background-size: contain;  /* Contain: ajusta la imagen dentro del contenedor */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: contain;
+    background-repeat: no-repeat;
 }  
 
 .content{
@@ -99,7 +99,7 @@ body{
 
 
 .content-products{
-    display: flex;  /*diseño cuadricula*/
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -109,8 +109,8 @@ body{
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    
 }
+
 
 .title-catalog{
     width: 100%;
@@ -136,7 +136,7 @@ body{
 .item{
     border-radius:  0.62em;
     display: flex;
-    flex-direction: column; /* Apila los elementos verticalmente */
+    flex-direction: column;
     margin: 0 1.25em 1.25em;
 
 }
@@ -145,7 +145,7 @@ body{
 }
 
 .producto:last-child {
-    margin-right: 0; /* No aplicar margen a último elemento */
+    margin-right: 0;
 }
 
 .info-product{
@@ -228,19 +228,19 @@ body{
 }
 
 .input-text{
-    width: 18.75em; /* Ancho del cuadro de texto */
-    height: 1.87em; /* Altura del cuadro de texto */
+    width: 18.75em;
+    height: 1.87em;
     font-size: 1rem; 
 }
 
 
 .policy-link {
-    color: rgb(35, 126, 206); /* Color azul para los enlaces */
-    text-decoration: none; /* Remueve el subrayado de los enlaces */
+    color: rgb(35, 126, 206);
+    text-decoration: none;
 }
 
 .policy-link:hover {
-    text-decoration: underline; /* Añade subrayado al pasar el ratón sobre el enlace */
+    text-decoration: underline;
 }
 
 .footer-content{
@@ -287,7 +287,7 @@ body{
     width: 1.15em;
     height: 1.1em;
     margin: 0.1em;
-    flex-direction: row; /* Cambiar la dirección a vertical */
+    flex-direction: row;
     margin-top: 0.5em;
     
     

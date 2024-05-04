@@ -41,15 +41,15 @@ body{
     width: 100%;
     z-index: 100%;
     font-weight: bold; 
-    text-transform: uppercase;  /*Transforma en mayuscula*/
+    text-transform: uppercase;
       
 }
 
 .banner{
     height: 60vh !important;
     background: url(./images/banner.png) no-repeat center;  
-    background-attachment: fixed;   /*Para mover la foto scroll*/
-    background-size:cover;      /*cover: ocupa todo el ancho la imagen*/
+    background-attachment: fixed;
+    background-size:cover;
 }  
 
 
@@ -85,8 +85,8 @@ body{
     height: 30vh !important;
     background: url(/img/banner.png);  
     background-attachment: fixed;
-    background-size: contain;  /* para ajustar imagen en el contenedor */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: contain;
+    background-repeat: no-repeat;
 }  
 
 
@@ -103,7 +103,7 @@ body{
 
 .products-container {
     display: flex;
-    justify-content: space-between; /* Alinea los productos uno al lado del otro */
+    justify-content: space-between;
     margin-left: 1.25em;
     margin-right: 1.25em;
 }
@@ -112,23 +112,24 @@ body{
 .cube {
     display: flex;
     flex-wrap: wrap;
-    background-color: #ccc; /* gray color */
-    justify-content: flex-start; /* Alinea los elementos a la izquierda */
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    list-style: none; /* Quita la numeración de la lista */
-
+    background-color: #ccc;
+    justify-content: flex-start;
+    padding: 0.625em;
+    border-radius: 0.625em;
+    box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.2);
+    list-style: none;
 }
+
   
 .cube li {
-    width: calc(100% - 20px); /* Ajusta el ancho para ocupar el 100% del contenedor y elimina el margen */
-    margin: 10px; /* Elimina el margen horizontal y establece un margen vertical */
+    width: calc(100% - 1.25em);
+    margin: 0.625em;
     background-color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 0.625em;
+    border-radius: 0.3125em;
+    box-shadow: 0 0 0.3125em rgba(0, 0, 0, 0.1);
 }
+
   
 .cube li:hover {
     background-color: #f0f0f0;
@@ -136,7 +137,7 @@ body{
 
 
 .content-products{
-    display: flex;  /*diseño cuadricula*/
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -156,8 +157,9 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1.25em;
 }
+
 
 .table-container {
     flex-basis: 30%;
@@ -185,16 +187,18 @@ body{
 
 .table ol {
     list-style: none;
-    padding: 10px;
+    padding: 0.625em; 
 }
+
 
 .table ol li {
     background-color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px;
+    padding: 0.625em;
+    border-radius: 0.3125em;
+    box-shadow: 0 0 0.3125em rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.625em;
 }
+
 
 
 
@@ -210,11 +214,12 @@ body{
 }
 
 .title-catalog select {
-    padding: 4.5px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    padding: 0.28125em;
+    font-size: 1em;
+    border-radius: 0.3125em; 
+    border: 0.0625em solid #ccc; 
 }
+
 
 .title-catalog p {
     margin-left: 705px; 
@@ -225,31 +230,31 @@ body{
 .most-sold {
     background-color: #29c224;
     color: white;
-    padding: 10px 20px;
+    padding: 0.625em 1.25em;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.31em;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 
 
-.items-container{
+.items-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    
+    grid-template-columns: repeat(3, calc(33.333% - 0.625em));
+    gap: 1.25em;
 }
+
 
 
 .container-img {
-    overflow: hidden; /* Evita que las imágenes se desborden */
+    overflow: hidden;
 }
 
 .item{
     border-radius:  0.62em;
     display: flex;
-    flex-direction: column; /* Apila los elementos verticalmente */
+    flex-direction: column;
     margin: 0 1.25em 1.25em;
 
 }
@@ -258,7 +263,7 @@ body{
 }
 
 .producto:last-child {
-    margin-right: 0; /* No aplicar margen a último elemento */
+    margin-right: 0;
 }
 
 .info-product{
@@ -287,7 +292,7 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 0.625em 0.625em 0 0; /* Mantenemos el borde redondeado solo en la parte superior */
+    border-radius: 0.625em 0.625em 0 0;
 }
 
 .page-footer{
@@ -331,33 +336,20 @@ body{
 }
 
 .input-text{
-    width: 18.75em; /* Ancho del cuadro de texto */
-    height: 1.87em; /* Altura del cuadro de texto */
+    width: 18.75em;
+    height: 1.87em;
     font-size: 1rem; 
 }
 
 
 .policy-link {
-    color: rgb(35, 126, 206); /* Color azul para los enlaces */
-    text-decoration: none; /* Remueve el subrayado de los enlaces */
+    color: rgb(35, 126, 206);
+    text-decoration: none;
 }
 
 .policy-link:hover {
-    text-decoration: underline; /* Añade subrayado al pasar el ratón sobre el enlace */
+    text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .page-footer{
@@ -401,19 +393,19 @@ body{
 }
 
 .input-text{
-    width: 18.75em; /* Ancho del cuadro de texto */
-    height: 1.87em; /* Altura del cuadro de texto */
+    width: 18.75em;
+    height: 1.87em;
     font-size: 1rem; 
 }
 
 
 .policy-link {
-    color: rgb(35, 126, 206); /* Color azul para los enlaces */
-    text-decoration: none; /* Remueve el subrayado de los enlaces */
+    color: rgb(35, 126, 206);
+    text-decoration: none;
 }
 
 .policy-link:hover {
-    text-decoration: underline; /* Añade subrayado al pasar el ratón sobre el enlace */
+    text-decoration: underline;
 }
 
 .footer-content{
@@ -460,7 +452,7 @@ body{
     width: 1.15em;
     height: 1.1em;
     margin: 0.1em;
-    flex-direction: row; /* Cambiar la dirección a vertical */
+    flex-direction: row;
     margin-top: 0.5em;
     
     
@@ -524,7 +516,6 @@ body{
     }
 }
 
-/* Media query para pantallas con un ancho mínimo de 1440px */
 @media only screen and (min-width: 1440px) {
     .banner {
         height: 80vh !important;
@@ -539,11 +530,13 @@ body{
         max-height: 100%;
     }
     .title-catalog select {
-        margin-right: 50px;
-        margin-left: 30px;
+        margin-right: 3.125em;
+        margin-left: 1.875em;
         padding: 0.353em;
     }
+    
     .title-catalog p {
-        margin-left: 450px; 
+        margin-left: 28.125em;
     }
+    
 }

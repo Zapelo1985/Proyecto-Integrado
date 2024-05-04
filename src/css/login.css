@@ -118,9 +118,9 @@ body{
 
 .login h3 {
     color: #333;
-    margin-top: 10px;
-
+    margin-top: 0.6em;
 }
+
 
 
 .login label {
@@ -135,7 +135,7 @@ body{
 
 .text {
     text-align: left;
-    margin-top: 30px;
+    margin-top: 1.875em;
 }
 
 .login input[type="email"],
@@ -203,9 +203,8 @@ body{
 
 }
 
-.content-products {
+.content-products{
     display: flex;
-    /*diseño cuadricula*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -215,8 +214,8 @@ body{
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-
 }
+
 
 .title-catalog {
     width: 100%;

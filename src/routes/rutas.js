@@ -12,7 +12,7 @@ router
     .get('/register',enlaceController.getRegister)
     .get('/contact',enlaceController.getContact)
     .get('/login',enlaceController.getLogin)
-    .get('/register',enlaceController.getRegister)
+    .get('/shopping',enlaceController.getShopping)
     .get('/sacamuelas',enlaceController.getSacamuelas)
     .get('/risk',enlaceController.getRisk)
     .get('/nemesis',enlaceController.getNemesis)
