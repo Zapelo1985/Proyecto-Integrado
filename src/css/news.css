@@ -85,28 +85,107 @@ body{
     height: 30vh !important;
     background: url(/img/banner.png);  
     background-attachment: fixed;
-    background-size: contain;  /* para ajustar imagen en el contenedor */
+    background-size: contain;  /* Contain: ajusta la imagen dentro del contenedor */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
 }  
 
 .content{
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.products-container {
-    display: flex;
+
+.content-products{
+    display: flex;  /*diseño cuadricula*/
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 37em; 
-}
-.content-products{
-    text-align: center;
-    margin-top: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1.56em;
+    margin-top: 1.56em;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
+
+.title-catalog{
+    width: 100%;
+    display: flex;
+    padding: 0.9375em;
+    margin-bottom: 1.25em;
+}
+
+.button-more{
+    margin-left: auto;
+    width: 4.5%;
+}
+
+.items-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25em;
+}
+
+
+.item{
+    border-radius:  0.62em;
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    margin: 0 1.25em 1.25em;
+
+}
+.item:hover{
+    box-shadow: 0 0.625em 1.25em black;
+}
+
+.producto:last-child {
+    margin-right: 0; /* No aplicar margen a último elemento */
+}
+
+.info-product{
+    padding: 0.93em 1.87em;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.62em;
+}
+
+.price{
+    font-size: 1em;
+    font-weight: 750;
+}
+
+.info-product button{
+    border: none;
+    background: none;
+    background-color: black;
+    color: white;
+    padding: 0.93em 0.625em;
+    cursor: pointer;
+}
+
+.item img{
+    height: 18.75em;
+    object-fit: cover;
+    border-radius: 0.625em 0.625em 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .page-footer{
     border-bottom: 0.0625em solid #9c9a9a;
