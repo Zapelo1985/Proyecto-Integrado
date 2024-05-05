@@ -95,7 +95,7 @@ body {
     align-items: center;
 }
 
-.tabla {
+.table1 {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -108,6 +108,20 @@ body {
     height: auto;
 }
 
+.content-products2 img#zygomatic{
+    width: 20em;
+    height: auto;
+}
+
+.content-products2 img#uno{
+    width: 16.5em;
+    height: auto;
+}
+
+.content-products2 img#jenga{
+    width: 16.5em;
+    height: auto;
+}
 
 
 table {
@@ -328,7 +342,7 @@ pre {
 
 
 @media screen and (min-width: 768px) {
-    .tabla {
+    .table1 {
         padding-top: 5em;
         margin-right: 7.5em;
     }

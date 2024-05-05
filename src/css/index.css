@@ -42,7 +42,6 @@ body{
     z-index: 100%;
     font-weight: bold; 
     text-transform: uppercase;
-      
 }
 
 
@@ -57,7 +56,6 @@ body{
     color: rgb(233, 231, 231);
     text-decoration: none;
     color: black;
-
 }
 
 .menu2 a:hover{
@@ -112,14 +110,13 @@ body{
     display: flex;
     padding: 0.9em;
     margin-bottom: 1.25em;
-    
 }
+
 .title-catalog2{
     width: 100%;
     display: flex;
     padding: 0.9em;
     margin-bottom: 1.25em;
-    
 }
 
 .items-container{
@@ -146,8 +143,10 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0 1.25em 1.25em;
-
 }
+
+
+
 .item:hover{
     box-shadow: 0 0.625em 1.25em black;
 }
@@ -186,6 +185,7 @@ body{
 }
 
 
+
 .container-img#skyrim {
     height: 16.8em;
     width: 16.8em;
@@ -207,14 +207,10 @@ body{
 }
 
 
-
-
-
 .page-footer{
     border-bottom: 0.0625em solid #9c9a9a;
     background-color: #eee7e7;
     margin-top: 3.75em;
-
 }
 
 .tittle-footer{
@@ -296,14 +292,13 @@ body{
 }
 
 .listas-about{
-    margin-top: 0.1875em ;
+    margin-top: 0.1875em;
 }
 
 .contacto-footer{
     padding-left: 10em;
-   
-    
 }
+
 .social-icons{
     display: flex;
     width: 1.15em;
@@ -311,8 +306,6 @@ body{
     margin: 0.1em;
     flex-direction: row;
     margin-top: 0.5em;
-    
-    
 }
 
 
@@ -321,7 +314,6 @@ body{
     border-right: 0.09em solid #9c9a9a;
     padding-left: 6.2em;
     margin-top: -2.1em;
-    
 }
 
 .dropdown-icon{
@@ -364,20 +356,17 @@ body{
   
     .logo2{
         position: absolute;
-        left: 20em;
+        left: 335px;
     }
     
     .logo2 .dropdown-icon{
         position: absolute;
-        right: 21.8em;
+        right: 350px;
     }
 
    .header{
         display: none;
     }
-
-
-
 
     .title-catalog{
         display: flex;
@@ -396,14 +385,14 @@ body{
     }
 
     .content-products{
-        margin-top: 8.12em;
+        margin-top: 130px;
     }
     
     .items-container .item:not(#sacamuelas){
         display: none;
     }
 
-    .items-container2 .item:not(#sacamuelas){
+    .items-container2 .item:not(#skyrim){
         display: none;
     }
 
@@ -425,11 +414,11 @@ body{
     }
 
     .tittle-footer{
-       font-size: 1em; 
+       font-size: 16px; 
     }
     
     .input-group{
-        margin-top: 1.25em;
+        margin-top: 20px;
     }
 
     .footer-content{
@@ -471,9 +460,6 @@ body{
     .item {
         margin: 0.93em 0.62em; 
     }
-
-   
-
 
     .item img{
         width: 100%;

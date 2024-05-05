@@ -63,12 +63,24 @@ const getDungeon = (req, res) => {
     res.render('products/news/dungeon');
 };
 
+const getZygomatic = (req, res) => {
+    res.render('products/news/zygomatic');
+};
+
 const getHumedal = (req, res) => {
     res.render('products/news/humedal');
 };
 
 const getSkyrim = (req, res) => {
     res.render('products/news/skyrim');
+};
+
+const getJenga = (req, res) => {
+    res.render('products/news/jenga');
+};
+
+const getUno = (req, res) => {
+    res.render('products/news/uno');
 };
 
 
@@ -95,6 +107,9 @@ module.exports = {
     getDragonkeeper,
     getDungeon,
     getHumedal,
-    getSkyrim
+    getSkyrim,
+    getZygomatic,
+    getJenga,
+    getUno
 
 }

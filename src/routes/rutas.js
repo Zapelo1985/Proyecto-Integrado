@@ -23,6 +23,11 @@ router
     .get('/dungeon',enlaceController.getDungeon)
     .get('/skyrim',enlaceController.getSkyrim)
     .get('/humedal',enlaceController.getHumedal)
+    .get('/zygomatic',enlaceController.getZygomatic)
+    .get('/jenga',enlaceController.getJenga)
+    .get('/uno',enlaceController.getUno)
+
+
 
   
 
