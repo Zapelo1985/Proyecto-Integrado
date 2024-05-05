@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HABIT GAMES</title>
-    <link rel="stylesheet" href="./css/contact.css">
-    <link rel="icon" type="image/jpg" href="./images/logo.png">
-    <script src="./javascripts/index.js"></script>
-
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="icon" type="image/jpg" href="/img/LOGO PAGINA WEB.PNG">
 </head>
 
 <body>
@@ -16,71 +14,145 @@
             
         <div class="head">
             
-            <div class="logo">
-                <a href="/">
-                    <img src="./images/logo.png" alt="logo de la pagina">
-                </a>
-            </div>
-                
-            <nav class="menu2">
-                <a href="/">Inicio</a>
-                <a href="/offers">Ofertas</a>
-                <a href="/news">Novedades</a>
-                <a href="/catalogue">Catalogo</a> 
-                <a href="/contact">Contacto</a>
-                
-            </nav>
+        <div class="logo">
+            <img src="/img/LOGO PAGINA WEB.PNG" alt="logo de la pagina">
+        </div>
+            
+        <nav class="menu2">
+            <a href="#">Inicio</a>
+            <a href="#">Novedades</a>
+            <a href="#">Ofertas</a>
+            <a href="#">Catalogo</a>
+            <a href="#">Prepedidos</a> 
+            <a href="#">Contacto</a>
+            
+        </nav>
 
-
-            <div class="logo2">
-                <div class="dropdown-icon">
-                    <img src="./images/desplegable.png" alt="Desplegable">
-                </div>
-                <a href="/login"><img src="./images/user.png" alt="icono para iniciar/registrarse"></a>
-                <a href="/shopping"><img class="shopp" src="./images/carro.png" alt="carro de compra"></a>
-            </div>
-
+        <div class="logo2">
+            <a href="#"><img src="/img/user.png" alt="icono para iniciar/registrarse"></a>
+            <a href="#"><img class="carro" src="/img/carro.png" alt="carro de compra"></a>
         </div>
 
     </div>
     <div class="container">
-        <div class="login">
-            <h1>Contáctenos</h1>
-            <h2>Escribenos</h2>
-            <h4>Tomamos nota y le responderemos lo antes posible, Gracias.</h4>
-            
-            <h3>Información Personal:</h3>       
-            <form action="contact" method="post">
-                <label for="nombre" class="text">Nombre:</label>
-                <label for="policy-text" class="policy-text"></label> 
-                <input type="text" id="name" name="name"  required>
-                <label for="policy-text" class="policy-text"></label> 
-                <label for="apellidos" class="text">Correo Electrónico:</label>
-                <label for="policy-text" class="policy-text"></label> 
-                <input type="email" id="email" name="email" required>
-                <label for="policy-text" class="policy-text"></label>   
-                <label for="number" class="text">Numero de telefono:</label>
-                <label for="policy-text" class="policy-text"></label> 
-                <input type="text" id="number" name="number" required>
-                <div class="input-container">
-                    <label for="reseña" class="text">Reseña:</label>
-                    <textarea id="reseña" name="reseña" rows="4" cols="50"></textarea>
-                </div>
-                <div class="submit-btn">
-                    <button type="submit">Enviar</button>
-                </div>
+        <div class="container1">
+            <h2>Crear nueva cuenta de cliente</h2>
+            <pre>
 
+
+            </pre>
+            <h4>Información Personal</h4>
+            <pre>
+
+
+            </pre>
+            <form action="/action_page.php">
+                <label for="fname" class="text">Nombre:</label>
+                <pre>
+                </pre>
+                <input type="text" id="fname" name="fname">
+                <pre>
+                </pre>
+                <label for="lname" class="text">Apellidos:</label>
+                <pre>
+                </pre>
+                <input type="text" id="lname" name="lname">
+                <pre>
+
+
+                </pre>
+                <h4>Información Inicio de Sesión</h4>
+                <pre>
+
+
+                </pre>
+                <label for="email" class="text">Correo Electrónico:</label>
+                <pre>
+                </pre>
+                <input type="email" id="email" name="email">
+                <pre>
+                </pre>
+                <label for="pwd" class="text">Contraseña:</label>
+                <pre>
+                </pre>
+                <input type="password" id="pwd" name="pwd">
+                <pre>
+                </pre>
+                <label for="policy-text" class="policy-text"></label>
+                <input type="checkbox" id="policy-text " name="policy-text" required> ¿Olvidaste la contraseña?
             </form>
-            
-           
-            
         </div>
+        <div class="center">
+            <pre>
 
-      
-     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </pre>
+            <label for="email" class="text">Confirmar contraseña:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div class="register">
+            <pre>
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </pre>
+            
+            <button onclick= "location.href='/register';">Crear Cuenta</button>
+            <pre>
+            </pre>
+            <p>Tus datos personales se utilizarán para procesar tu pedido, mejorar tu experiecia</p>
+            <p>en esta web, gestionar el accesoa tu cuenta y otros propósitos descritos en nuestra</p>
+            <p>política de prvacidad.</p>
+        </div>
     </div>
-
-</body>
 
 <footer>
     <div class="page-footer">
@@ -137,10 +209,10 @@
                     <a href="/contact"><h5>Escribenos</h5></a>
                     
                     <div class="social-icons">
-                        <img src="./images/iconos social/whatsapp.png" alt="Whatsapp">
-                        <img src="./images/iconos social/instagram.png" alt="Instagram">
-                        <img src="./images/iconos social/facebook.png" alt="Facebook">
-                        <img src="./images/iconos social/twitter.png" alt="Twitter">
+                        <img src="/img/iconos social/whatsapp.png" alt="Whatsapp">
+                        <img src="/img/iconos social/instagram.png" alt="Instagram">
+                        <img src="/img/iconos social/facebook.png" alt="Facebook">
+                        <img src="/img/iconos social/twitter.png" alt="Twitter">
                     </div>
                 </li>
             </ul>
