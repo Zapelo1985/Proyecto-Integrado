@@ -15,9 +15,9 @@ body {
     margin-left: 1.87em;
 }
 
-.logo img {
-    width: 3.1em;
-    height: 3.1em;
+.logo img{
+    width:  3.125em;
+    height: 3.125em;
 }
 
 .logo2 {
@@ -40,20 +40,18 @@ body {
     position: fixed;
     width: 100%;
     z-index: 100%;
-    font-weight: bold;
-    text-transform: uppercase;
-    /*Transforma en mayuscula*/
-
+    z-index: 2;
+    font-weight: bold; 
+    text-transform: uppercase;  /*Transforma en mayuscula*/
+      
 }
 
 .banner {
     height: 60vh !important;
-    background: url(/img/banner.png) no-repeat center;
-    background-attachment: fixed;
-    /*Para mover la foto scroll*/
-    background-size: cover;
-    /*cover: ocupa todo el ancho la imagen*/
-}
+    background: url(/img/banner.png) no-repeat center;  
+    background-attachment: fixed;   /*Para mover la foto scroll*/
+    background-size:cover;      /*cover: ocupa todo el ancho la imagen*/
+}  
 
 
 .menu2 {
@@ -88,13 +86,11 @@ body {
     height: 30vh !important;
     background: url(/img/banner.png);
     background-attachment: fixed;
-    background-size: contain;
-    /* Contain: ajusta la imagen dentro del contenedor */
-    background-repeat: no-repeat;
-    /* Evita que la imagen se repita */
-}
+    background-size: contain;  /* Contain: ajusta la imagen dentro del contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}  
 
-.content {
+.content{
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -102,7 +98,6 @@ body {
     align-items: center;
 }
 
-/* Estilos para el contenedor */
 .container {
     display: flex;
     justify-content: center;
@@ -111,23 +106,23 @@ body {
     top: 6.25em;
     text-align: center;
     z-index: 1;
+
 }
 
-/* Estilos para la sección de inicio de sesión */
 .login {
-    padding: 1.25em;
-    border-radius: 0.3125em;
+    padding: 1.25em; /* Converted from 20px to em */
+    border-radius: 0.3125em; /* Converted from 5px to em */
     text-align: center;
     position: relative;
-
+    
 }
 
-.login h1,
-.login h3 {
+.login h1, .login h3 {
     color: #333;
-
-
+    
+    
 }
+
 
 .login label {
     display: block;
@@ -141,7 +136,7 @@ body {
 
 .text {
     text-align: left;
-}
+  }
 
 .login input[type="email"],
 .login input[type="password"] {
@@ -167,15 +162,13 @@ body {
     cursor: pointer;
 }
 
-/* Estilos para la sección de registro */
 
 .register {
-    display: block;
+    display: flex;
     width: 40%;
-    padding: 1.25em;
     border-radius: 0.32em;
     text-align: left;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 .register p {
@@ -189,13 +182,13 @@ body {
     border: none;
     padding: 0.625em 1.25em;
     text-align: center;
-    cursor: pointer;
+
 }
 
-input-text {
-    width: 18.75rem;
-    height: 1.88rem;
-    font-size: 1rem;
+input-text{
+    width: 18.75rem; /* Ancho del cuadro de texto */
+    height: 1.88rem; /* Altura del cuadro de texto */
+    font-size: 1rem; 
 }
 
 
@@ -208,9 +201,8 @@ input-text {
 
 }
 
-.content-products {
-    display: flex;
-    /*diseño cuadricula*/
+.content-products{
+    display: flex;  /*diseño cuadricula*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -243,6 +235,13 @@ input-text {
     gap: 1.25em;
 }
 
+pre {
+    font-family: inherit;
+    padding: 0.6em;
+    margin: 0.6em;
+    width: 31em;
+    text-align: left; 
+}
 
 .item {
     border-radius: 0.62em;
@@ -326,6 +325,7 @@ input-text {
     margin-top: 0.93em;
     color: #000;
     display: block;
+   
 }
 
 .input-text {
@@ -350,7 +350,7 @@ input-text {
     justify-content: center;
     text-decoration: none;
     width: 100%;
-    height: 6.25em;
+    height: 6.25em;  
 }
 
 .footer-content h4 {
@@ -394,27 +394,12 @@ input-text {
 
 }
 
-.dropdown-icon {
-    display: none;
-}
-
-.formulario1 {
-    margin-top: 3em;
-}
-
-.my-button {
-    background-color: #28A745;
-    color: white;
-    border-radius: 0.625em;
-    border: none;
-    padding: 0.625em 1.25em;
-    text-align: center;
-    text-decoration: none;
-}
 
 
 
 
+
+/* Media Queries */
 @media screen and (max-width: 768px) {
 
     .head {
@@ -486,69 +471,51 @@ input-text {
         max-width: 25em;
     }
 
-    .login input[type="email"],
-    .login input[type="password"] {
-        width: 100%;
-        padding: 0.5em;
-        margin-bottom: 1em;
-        text-align: center;
+    .btn {
+        margin-left: 1em; 
+    }
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    .logo {
+        margin-left: 0.93em; 
     }
 
-
-
-
-
-
-    @media screen and (min-width: 1440px) {
-        .login {
-            width: 50%;
-            margin: auto;
-            padding: 2em;
-        }
-
-        .register {
-            width: 40%;
-            margin-left: 25%;
-            padding: 2em;
-            text-align: center;
-        }
-
-        .login h1 {
-            font-size: 2em;
-        }
-
-        .login input[type="email"],
-        .login input[type="password"] {
-            width: 70%;
-        }
-
-        .register p {
-            font-size: 1.1em;
-           
-        }
-
-        .register button {
-            padding: 0.75em 1.5em;
-            
-            font-size: 1.1em;
-        }
-
-        .footer-content {
-            display: flex;
-        }
-
-        .subscribe {
-            padding: 2em 4em;
-        }
-
-        .policy-text {
-            font-size: 0.9em;
-        }
-
-        .input-text {
-            width: 20em;
-            height: 2em;
-            font-size: 1em;
-        }
+    .logo img {
+        width: 2.5em; 
+        height: 2.5em; 
     }
+
+    .logo2 {
+        margin-right: 0.93em; /
+    }
+
+    .logo2 img {
+        width: 2em; 
+        margin-right: 0.31em; 
+    }
+
+    .content-products {
+        width: 90%; 
+    }
+
+    .items-container {
+        flex-wrap: wrap; 
+    }
+
+    .item {
+        margin: 0.93em 0.62em; 
+    }
+
+    .item img {
+        height: 15em; 
+    }
+
+    .button-more{
+        margin-left: auto;
+        width: 7.5%;
+    }
+
 }

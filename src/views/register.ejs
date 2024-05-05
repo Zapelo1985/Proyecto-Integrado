@@ -4,38 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HABIT GAMES</title>
-    <link rel="stylesheet" href="/css/register.css">
-    <link rel="icon" type="image/jpg" href="./images/LOGO PAGINA WEB.PNG">
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="icon" type="image/jpg" href="./images/logo.png">
+    <script src="./javascripts/index.js"></script>
+
 </head>
 
 <body>
 
     <div class="head">
             
-        <div class="head">
+        <div class="logo">
+            <img src="./images/LOGO PAGINA WEB.PNG" alt="logo de la pagina">
+        </div>
             
-            <div class="logo">
-                <img src="./images/logo.png" alt="logo de la pagina">
-            </div>
-                
-            <nav class="menu2">
-                <a href="/">Inicio</a>
-                <a href="/news">Novedades</a>
-                <a href="/offers">Ofertas</a>
-                <a href="/catalogo">Catalogo</a>
-                <a href="/preorders">Prepedidos</a> 
-                <a href="/contact">Contacto</a>
-                
-            </nav>
+        <nav class="menu2">
+            <a href="/habitgames/src/views/index.ejs">Inicio</a>
+            <a href="#">Novedades</a>
+            <a href="#">Ofertas</a>
+            <a href="#">Catalogo</a>
+            <a href="#">Prepedidos</a> 
+            <a href="#">Contacto</a>
+            
+        </nav>
 
-            <div class="logo2">
-                <div class="dropdown-icon">
-                    <img src="./images/desplegable.png" alt="Desplegable">
-                </div>
-                <a href="/login"><img src="./images/user.png" alt="icono para iniciar/registrarse"></a>
-                <a href="#"><img class="carro" src="./images/carro.png" alt="carro de compra"></a>
+        <div class="logo2">
+            <div class="dropdown-icon">
+                <img src="./images/desplegable.png" alt="Desplegable">
             </div>
-
+            <a href="#"><img src="./images/user.png" alt="icono para iniciar/registrarse"></a>
+            <a href="#"><img class="carro" src="./images/carro.png" alt="carro de compra"></a>
         </div>
 
     </div>
@@ -71,12 +69,16 @@
                 <label for="password" class="text">Confirmar Contraseña:</label>
                 <label for="policy-text" class="policy-text"></label> 
                 <input type="password" id="password" name="password" required>
+                <div>
+                    <input type="checkbox" id="policy-text " name="policy-text" required> Mostrar contraseña
+                    <div class="submit-btn">
+                        <button type="submit">Crear cuenta</button>
+                    </div>
+                </div>
+                
             </form>
            
-            <div>
-                <input type="checkbox" id="policy-text " name="policy-text" required> Mostrar contraseña
-                <label for="policy-text" class="policy-text"></label>
-            </div>
+            
         </div>
 
       
@@ -114,12 +116,6 @@
     </div>
 
 
-
-
-
-    <br><br>
-
-
     <div class="footer-content">
         <div class="about-footer">
             <h4 class="tittle-footer">ACERCA DE HABITGAMES</h4>
@@ -143,7 +139,7 @@
             <h4 class="tittle-footer">CONTACTANOS</h4>
             <ul class="listas-about">
                 <li>
-                    <a href="#"><h5>Escribenos</h5></a>
+                    <a href="/contact"><h5>Escribenos</h5></a>
                     
                     <div class="social-icons">
                         <img src="./images/iconos social/whatsapp.png" alt="Whatsapp">

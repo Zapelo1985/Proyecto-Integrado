@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HABIT GAMES</title>
     <link rel="stylesheet" href="/css/index.css">
-    <link rel="icon" type="image/jpg" href="./images/logo.png">
+    <link rel="icon" type="image/jpg" href="./images/LOGO PAGINA WEB.PNG">
 
 </head>
 
@@ -13,15 +13,13 @@
         <div class="head">
             
             <div class="logo">
-                <img src="./images/logo.png" alt="logo de la pagina">
+                <img src="./images/LOGO PAGINA WEB.PNG" alt="logo de la pagina">
             </div>
                 
             <nav class="menu2">
-                <a href="/">Inicio</a>
+                <a href="/index">Inicio</a>
                 <a href="/news">Novedades</a>
-                <a href="/offers">Ofertas</a>
-                <a href="/catalogo">Catalogo</a>
-                <a href="/preorders">Prepedidos</a> 
+                <a href="/catalogue">Catalogo</a> 
                 <a href="/contact">Contacto</a>
                 
             </nav>
@@ -30,7 +28,7 @@
                 <div class="dropdown-icon">
                     <img src="./images/desplegable.png" alt="Desplegable">
                 </div>
-                <a href="/login"><img src="./images/user.png" alt="icono para iniciar/registrarse"></a>
+                <a href="/register"><img src="./images/user.png" alt="icono para iniciar/registrarse"></a>
                 <a href="#"><img class="carro" src="./images/carro.png" alt="carro de compra"></a>
             </div>
 
@@ -53,15 +51,15 @@
                             <!-- SACA MUELAS -->
         
                             <div class="container-img" id="sacamuelas">
-                                <a href="/appWeb/productos/sacamuelas.html">
-                                    <img src="./images/productos/saca_muelas.jpg">
+                                <a href="/sacamuelas">
+                                    <img src="./images/products/saca_muelas.jpg">
                                 </a>
                             </div>
                            
                             <div class="info-product">
                                 <h3>Sacamuelas</h2>
                                 <p class="price">19.99€</p>
-                                <button>Añadir al carrito</button>
+                                <button onclick="moverCarro()">Añadir al carrito</button>
                             </div>
                             <div class="points-icon">
                                 <img src="/img/points.png" alt="3 puntos">
@@ -72,15 +70,15 @@
                              <!-- MONOS LOCOS -->
                             
                              <div class="container-img" id="monos-locos">
-                                <a href="/appWeb/productos/monos_locos.html">
-                                    <img src="./images/productos/saca_muelas.jpg">
+                                <a href="/monos_locos">
+                                    <img src="./images/products/monos_locos.jpg">
                                 </a>                
                             </div>
                     
                             <div class="info-product">
                                 <h3>Monos Locos</h2>
                                 <p class="price">21.49€</p>
-                                <button>Añadir al carrito</button>
+                                <button onclick="moverCarro()">Añadir al carrito</button>
                             </div>
                             <div class="points-icon">
                                 <img src="/img/points.png" alt="3 puntos">
@@ -88,57 +86,57 @@
         
                         </div>
     
-                        <div class="item">
-                            <!-- MONOS NEMESIS -->
+                        <div class="item" id="nemesis">
+                            <!-- NEMESIS -->
         
                             <div class="container-img">
-                                <a href="/appWeb/productos/nemesis.html">
-                                    <img src="./images/productos/saca_muelas.jpg">
+                                <a href="/nemesis">
+                                    <img src="./images/products/nemesis.jpg">
                                 </a>                
                             </div>
                     
                             <div class="info-product">
                                 <h3>Nemesis</h2>
                                 <p class="price">146.60€</p>
-                                <button>Añadir al carrito</button>
+                                <button onclick="moverCarro()">Añadir al carrito</button>
                             </div>
                             <div class="points-icon">
                                 <img src="/img/points.png" alt="3 puntos">
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="item" id="risk">
                        
-                            <!-- SACA MUELAS -->
+                            <!-- RISK -->
         
                             <div class="container-img">
-                                <a href="/appWeb/productos/sacamuelas.html">
-                                    <img src="./images/productos/saca_muelas.jpg">
+                                <a href="/risk">
+                                    <img src="./images/products/risk.jpg">
                                 </a>
                             </div>
                            
                             <div class="info-product">
-                                <h3>Sacamuelas</h2>
-                                <p class="price">19.99€</p>
-                                <button>Añadir al carrito</button>
+                                <h3>Risk</h2>
+                                <p class="price">36.45€</p>
+                                <button onclick="moverCarro()">Añadir al carrito</button>
                             </div>
                             <div class="points-icon">
                                 <img src="/img/points.png" alt="3 puntos">
                             </div>
                         </div>
     
-                        <div class="item">
-                             <!-- MONOS LOCOS -->
+                        <div class="item" id="prueba_o_verdad">
+                             <!-- PRUEBA O VERDAD -->
                             
                              <div class="container-img">
-                                <a href="/appWeb/productos/monos_locos.html">
-                                    <img src="./images/productos/saca_muelas.jpg">
+                                <a href="/prueba_o_verdad">
+                                    <img src="./images/products/prueba_o_verdad.jpg">
                                 </a>                
                             </div>
                     
                             <div class="info-product">
-                                <h3>Monos Locos</h2>
-                                <p class="price">21.49€</p>
-                                <button>Añadir al carrito</button>
+                                <h3>Prueba o Verdad</h2>
+                                <p class="price">29.99€</p>
+                                <button onclick="moverCarro()">Añadir al carrito</button>
                             </div>
                             <div class="points-icon">
                                 <img src="/img/points.png" alt="3 puntos">
@@ -146,19 +144,19 @@
         
                         </div>
     
-                        <div class="item">
-                            <!-- MONOS NEMESIS -->
+                        <div class="item" id="tragabolas">
+                            <!-- TRAGABOLAS -->
         
                             <div class="container-img">
-                                <a href="/appWeb/productos/nemesis.html">
-                                    <img src="./images/productos/saca_muelas.jpg">
+                                <a href="/tragabolas">
+                                    <img src="./images/products/traga_bolas.jpg">
                                 </a>                
                             </div>
                     
                             <div class="info-product">
-                                <h3>Nemesis</h2>
-                                <p class="price">146.60€</p>
-                                <button>Añadir al carrito</button>
+                                <h3>Tragabolas</h2>
+                                <p class="price">20.95€</p>
+                                <button onclick="moverCarro()">Añadir al carrito</button>
                             </div>
                             <div class="points-icon">
                                 <img src="/img/points.png" alt="3 puntos">
@@ -173,6 +171,7 @@
 
             
 
+           
             <section>
                 
                 <div class="content-products" id="content-products2">
@@ -181,39 +180,39 @@
                     </div>
                     
                     <div class="items-container2">
-                        <div class="item" id="sacamuelas">
+                        <div class="item" id="skyrim">
                        
-                            <!-- SACA MUELAS -->
+                            <!-- Skyrim -->
         
-                            <div class="container-img">
-                                <a href="/appWeb/productos/sacamuelas.html">
-                                    <img src="./images/productos/saca_muelas.jpg">
+                            <div class="container-img" id="skyrim">
+                                <a href="/skyrim">
+                                    <img src="./images/products/news/skyrim.jpg">
                                 </a>
                             </div>
                            
                             <div class="info-product">
-                                <h3>Sacamuelas</h2>
-                                <p class="price">19.99€</p>
-                                <button>Añadir al carrito</button>
+                                <h3>Skyrim</h2>
+                                <p class="price">129.99€</p>
+                                <button onclick="moverCarro()">Añadir al carrito</button>
                             </div>
                             <div class="points-icon">
                                 <img src="/img/points.png" alt="3 puntos">
                             </div>
                         </div>
     
-                        <div class="item">
-                             <!-- MONOS LOCOS -->
+                        <div class="item" id="humedal">
+                             <!-- HUMEDAL -->
                             
-                             <div class="container-img">
-                                <a href="/appWeb/productos/monos_locos.html">
-                                    <img src="./images/productos/saca_muelas.jpg">
+                             <div class="container-img" id="humedal">
+                                <a href="/humedal">
+                                    <img src="./images/products/news/humedal.jpg">
                                 </a>                
                             </div>
                     
                             <div class="info-product">
-                                <h3>Monos Locos</h2>
-                                <p class="price">21.49€</p>
-                                <button>Añadir al carrito</button>
+                                <h3>Humedal</h2>
+                                <p class="price">31.50€</p>
+                                <button onclick="moverCarro()">Añadir al carrito</button>
                             </div>
                             <div class="points-icon">
                                 <img src="/img/points.png" alt="3 puntos">
@@ -221,19 +220,19 @@
         
                         </div>
     
-                        <div class="item">
-                            <!-- MONOS NEMESIS -->
+                        <div class="item" id="dungeon">
+                            <!-- DUNGEON -->
         
-                            <div class="container-img">
-                                <a href="/appWeb/productos/nemesis.html">
-                                    <img src="./images/productos/saca_muelas.jpg">
+                            <div class="container-img" id="dungeon">
+                                <a href="/dungeon">
+                                    <img src="./images/products/news/dungeon.jpg">
                                 </a>                
                             </div>
                     
                             <div class="info-product">
-                                <h3>Nemesis</h2>
-                                <p class="price">146.60€</p>
-                                <button>Añadir al carrito</button>
+                                <h3>Dungeon</h2>
+                                <p class="price">44.99€</p>
+                                <button onclick="moverCarro()">Añadir al carrito</button>
                             </div>
                             <div class="points-icon">
                                 <img src="/img/points.png" alt="3 puntos">
@@ -241,18 +240,18 @@
                         </div>
                         <div class="item">
                        
-                            <!-- SACA MUELAS -->
+                            <!-- DRAGONKEEPERS -->
         
-                            <div class="container-img">
-                                <a href="/appWeb/productos/sacamuelas.html">
-                                    <img src="./images/productos/saca_muelas.jpg">
+                            <div class="container-img" id="dragonkeepers">
+                                <a href="/dragonkeeper">
+                                    <img src="./images/products/news/dragonkeeper.jpg">
                                 </a>
                             </div>
                            
                             <div class="info-product">
-                                <h3>Sacamuelas</h2>
-                                <p class="price">19.99€</p>
-                                <button>Añadir al carrito</button>
+                                <h3>Dragonkeepers</h2>
+                                <p class="price">25.19€</p>
+                                <button onclick="moverCarro()">Añadir al carrito</button>
                             </div>
                             <div class="points-icon">
                                 <img src="/img/points.png" alt="3 puntos">
@@ -297,7 +296,6 @@
          
     </div>
 
-    <br><br>    <!-- CORREGIR ESTE BR -->
 
 
     <div class="footer-content">
@@ -321,7 +319,7 @@
             <h4 class="tittle-footer">CONTACTANOS</h4>
             <ul class="listas-about">
                 <li>
-                    <a href="#"><h5>Escribenos</h5></a>
+                    <a href="/contact"><h5>Escribenos</h5></a>
                     
                     <div class="social-icons">
                         <img src="./images/iconos social/whatsapp.png" alt="Whatsapp">
@@ -342,13 +340,3 @@
 
 </footer>
 </html>
-
-
-<!--
-    COMENTAR LO DE CENTRAR EL CATALOGO
-    COMENTAR LA SEPARACION DE LA CASILLA DE ACEPTO
-    cambiar todo a emu
-    medias query em rem
-    CAMBIO DEL INICIO DE MAS VENDIDO A OFERTAS
-    CAMBIO DE ORDEN DE NOVEDADES POR OFERTAS EN EL MENU DE ARRIBA Y CATALOGO POR PREPEDIDOS
--->

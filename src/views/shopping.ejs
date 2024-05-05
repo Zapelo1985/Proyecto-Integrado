@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HABIT GAMES</title>
-    <link rel="stylesheet" href="/css/login.css">
-    <link rel="icon" type="image/jpg" href="/img/LOGO PAGINA WEB.PNG">
+    <link rel="stylesheet" href="./css/shopping.css">
+    <link rel="icon" type="image/jpg" href="./images/logo.png">
+    <script src="./javascripts/index.js"></script>
+
+
 </head>
 
 <body>
@@ -13,82 +16,41 @@
     <div class="head">
             
         <div class="logo">
-            <img src="/img/LOGO PAGINA WEB.PNG" alt="logo de la pagina">
+            <a href="/">
+                <img src="./images/logo.png" alt="logo de la pagina">
+            </a>
         </div>
             
         <nav class="menu2">
-            <a href="#">Inicio</a>
-            <a href="#">Novedades</a>
-            <a href="#">Ofertas</a>
-            <a href="#">Catalogo</a>
-            <a href="#">Prepedidos</a> 
-            <a href="#">Contacto</a>
+            <a href="/">Inicio</a>
+            <a href="/offers">Ofertas</a>
+            <a href="/news">Novedades</a>
+            <a href="/catalogue">Catalogo</a> 
+            <a href="/contact">Contacto</a>
             
         </nav>
 
-
         <div class="logo2">
-            <a href="#"><img src="/img/user.png" alt="icono para iniciar/registrarse"></a>
-            <a href="#"><img class="carro" src="/img/carro.png" alt="carro de compra"></a>
+            <div class="dropdown-icon">
+                <img src="./images/desplegable.png" alt="Desplegable">
+            </div>
+            <a href="/login"><img src="./images/user.png" alt="icono para iniciar/registrarse"></a>
+            <a href="/shopping"><img class="shopp" src="./images/carro.png" alt="carro de compra"></a>
         </div>
 
     </div>
-
-   
-    <div class="container">
-        <div class="login">
-            
-            <h1>Inicio de Sesión</h1>
-        
-            <h3>Clientes Registrados</h3>  
-
-            <form action="/login" method="post">
-                <label for="email" class="text">Correo electrónico:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="password" class="text">Contraseña:</label>
-                <input type="password" id="password" name="password" required>
-                <label for="policy-text" class="policy-text"></label>   
-                <input type="checkbox" id="policy-text" required> ¿Olvidaste la contraseña?
-                <label for="policy-text" class="policy-text"></label>
-                <button type="submit">Iniciar Sesión</button>
-            </form>
-        </div>
     
-        <div class="descripcion">
-            
-            <pre>
-                Todavía no tienes cuenta:
-
-                Teniendo una cuenta te enterarás antes que nadie
-                de las novedades semanales, promociones exclusivas,
-                invitaciones a eventos, regalos y sorteos.
-
-                Podrás disfrutar de un descuento en nuestras tiendas
-                físicas de juegos de multitud de editoriales. Pregunta
-                en la tienda los juegos con promociones disponibles.
-
-                Acumularás Puntos cada vez que compres en
-                HABITGAMES. Los Puntos te permiten obtener
-                descuentos en tus siguientes compras.
-                <div class="register">
-                    <button onclick= "location.href='/register';">Crear Cuenta</button>
-        
-                </div>
-            </pre>             
-            
-           
-
-        </div>
-            
-           
-
-             
-
-       
-        
-
-    </div>
 </body>
+
+<div class="products-container">
+    <section>
+        <div class="content-products">
+            <img src="./images/construccion.jpg" class="move-animation" alt="">
+        </div>
+        
+    </section>
+</div>
+
 
 <footer>
     <div class="page-footer">
