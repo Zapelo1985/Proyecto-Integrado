@@ -6,6 +6,8 @@
     <title>HABIT GAMES</title>
     <link rel="stylesheet" href="./css/catalogue.css">
     <link rel="icon" type="image/jpg" href="./images/logo.png">
+    <script src="./javascripts/index.js"></script>
+
 
 
 </head>
@@ -68,9 +70,10 @@
                 <p>Ordenar por:</p>
                 <select id="sort-by">
                     <option value="price">Precio</option>
-                    <option value="sales">Ventas</option>
                     <option value="name">Nombre</option>
                 </select>
+                <button onclick="sortProducts()">Aplicar</button>
+
             </div>
             
             
@@ -88,7 +91,7 @@
                     <div class="info-product">
                         <h3>Sacamuelas</h2>
                         <p class="price">19.99€</p>
-                        <button>Añadir al carrito</button>
+                        <button onclick="moverCarro()">Añadir al carrito</button>
                     </div>
                     <div class="points-icon">
                         <img src="/img/points.png" alt="3 puntos">
@@ -107,7 +110,7 @@
                     <div class="info-product">
                         <h3>Monos Locos</h2>
                         <p class="price">21.49€</p>
-                        <button>Añadir al carrito</button>
+                        <button onclick="moverCarro()">Añadir al carrito</button>
                     </div>
                     <div class="points-icon">
                         <img src="/img/points.png" alt="3 puntos">
@@ -127,7 +130,7 @@
                     <div class="info-product">
                         <h3>Nemesis</h2>
                         <p class="price">146.60€</p>
-                        <button>Añadir al carrito</button>
+                        <button onclick="moverCarro()">Añadir al carrito</button>
                     </div>
                     <div class="points-icon">
                         <img src="/img/points.png" alt="3 puntos">
@@ -146,7 +149,7 @@
                     <div class="info-product">
                         <h3>Risk</h2>
                         <p class="price">36.45€</p>
-                        <button>Añadir al carrito</button>
+                        <button onclick="moverCarro()">Añadir al carrito</button>
                     </div>
                     <div class="points-icon">
                         <img src="/img/points.png" alt="3 puntos">
@@ -165,7 +168,7 @@
                     <div class="info-product">
                         <h3>Prueba o Verdad</h2>
                         <p class="price">29.99€</p>
-                        <button>Añadir al carrito</button>
+                        <button onclick="moverCarro()">Añadir al carrito</button>
                     </div>
                     <div class="points-icon">
                         <img src="/img/points.png" alt="3 puntos">
@@ -185,7 +188,7 @@
                     <div class="info-product">
                         <h3>Tragabolas</h2>
                         <p class="price">20.95€</p>
-                        <button>Añadir al carrito</button>
+                        <button onclick="moverCarro()">Añadir al carrito</button>
                     </div>
                     <div class="points-icon">
                         <img src="/img/points.png" alt="3 puntos">

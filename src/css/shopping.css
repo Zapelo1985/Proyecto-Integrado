@@ -39,7 +39,7 @@ body{
     background-color: #29c224;
     position: fixed;
     width: 100%;
-    z-index: 100%;
+    z-index: 1000;
     font-weight: bold; 
     text-transform: uppercase;  
       
@@ -228,6 +228,34 @@ body{
 
 .points-icon{
     display: none;
+}
+
+/*PARA ANIMACION DEL CARRO*/
+
+@keyframes moverCarroAnimacion {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-8px); }
+    50% { transform: translateX(8px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.carro-animado {
+    animation: moverCarroAnimacion 0.5s ease-in-out;
+}
+
+/*MOVIMIENTO DE LA IMAGEN*/
+
+
+
+@keyframes moveImage {
+    0% { transform: translateY(10); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(10); }
+}
+
+.move-animation {
+    animation: moveImage 2s infinite;
 }
 
 @media screen and (max-width: 768px) {

@@ -345,7 +345,19 @@
     display: none;
 }
 
+/*PARA ANIMACION DEL CARRO*/
 
+@keyframes moverCarroAnimacion {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-8px); }
+    50% { transform: translateX(8px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.carro-animado {
+    animation: moverCarroAnimacion 0.5s ease-in-out;
+}
 
 
 @media screen and (max-width: 768px) {

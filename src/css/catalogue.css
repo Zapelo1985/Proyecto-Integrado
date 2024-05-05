@@ -136,7 +136,7 @@ body{
 
 
 .content-products{
-    display: flex;  /*diseño cuadricula*/
+    display: flex;  
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -216,10 +216,21 @@ body{
     border: 1px solid #ccc;
 }
 
-.title-catalog p {
-    margin-left: 705px; 
+
+.title-catalog button {
+    padding: 10px 20px;
+    background-color: #29c224;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 3em;
 }
 
+.title-catalog button:hover {
+    background-color: #1d7e1d;
+}
 
 
 .most-sold {
@@ -473,6 +484,43 @@ body{
     display: none;
 }
 
+/*PARA ANIMACION DEL CARRO*/
+
+@keyframes moverCarroAnimacion {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-8px); }
+    50% { transform: translateX(8px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.carro-animado {
+    animation: moverCarroAnimacion 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 768px) {
@@ -559,6 +607,9 @@ body{
         display: none;
     }
        
+    .title-catalog button {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
