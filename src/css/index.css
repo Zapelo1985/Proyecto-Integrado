@@ -41,16 +41,8 @@ body{
     width: 100%;
     z-index: 100%;
     font-weight: bold; 
-    text-transform: uppercase;  /*Transforma en mayuscula*/
-      
+    text-transform: uppercase;
 }
-
-.banner{
-    height: 60vh !important;
-    background: url(/img/banner.png) no-repeat center;  
-    background-attachment: fixed;   /*Para mover la foto scroll*/
-    background-size:cover;      /*cover: ocupa todo el ancho la imagen*/
-}  
 
 
 .menu2{
@@ -81,8 +73,8 @@ body{
     height: 30vh !important;
     background: url(/images/banner.png);  
     background-attachment: fixed;
-    background-size: contain;  /* Contain: ajusta la imagen dentro del contenedor */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: contain;
+    background-repeat: no-repeat;
 }  
 
 .content{
@@ -94,80 +86,9 @@ body{
 
 .products-container {
     display: flex;
-    width: 100%;
-}
-
-.container1, .center, .register {
-    flex-basis: 33.33%;
-    padding: 20px;
-    align-items: center;
-}
-
-.container1 {
-    width: 33%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    flex-direction: column;
-    text-align: left;
-}
-
-.center {
-    display: block;
-    width: 33%;
-    padding: 1.25em;
-    border-radius: 0.32em;
-    text-align: left;
-    margin-left: 20%;
-    margin-top: 80%;
-}
-
-.register {
-    display: block;
-    width: 33%;
-    padding: 1.25em;
-    border-radius: 0.32em;
-    text-align: left;
-    margin-left: 20%;
-    margin-top: 80%;
-}
-
-h2, h4 {
-    text-align: center;
-}
-
-.register{
-    margin-top: 60%;
-}
-
-.register p {
-    color: #495057;
-}
-
-.register button {
-    background-color: #28A745;
-    color: white;
-    border-radius: 0.625em;
-    border: none;
-    padding: 0.625em 1.25em;
-    text-align: center;
-    
-}
-
-input-text{
-    width: 18.75rem; /* Ancho del cuadro de texto */
-    height: 1.88rem; /* Altura del cuadro de texto */
-    font-size: 1rem; 
-}
-
-
-.container-flex{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    flex-direction: column;
-    justify-content: center;
-   
+    justify-content: space-between;
+    margin-left: 1.25em;
+    margin-right: 1.25em;
 }
 
 .content-products{
@@ -189,12 +110,13 @@ input-text{
     display: flex;
     padding: 0.9em;
     margin-bottom: 1.25em;
-    
 }
 
-.button-more{
-    margin-left: auto;
-    width: 4.5%;
+.title-catalog2{
+    width: 100%;
+    display: flex;
+    padding: 0.9em;
+    margin-bottom: 1.25em;
 }
 
 .items-container{
@@ -211,6 +133,10 @@ input-text{
     width: 100%;
 }
 
+
+.container-img {
+    overflow: hidden;
+}
 
 .item{
     border-radius:  0.62em;
@@ -255,7 +181,7 @@ input-text{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 0.625em 0.625em 0 0; /* Mantenemos el borde redondeado solo en la parte superior */
+    border-radius: 0.625em 0.625em 0 0;
 }
 
 
@@ -284,8 +210,7 @@ input-text{
 .page-footer{
     border-bottom: 0.0625em solid #9c9a9a;
     background-color: #eee7e7;
-    margin-top: 5em;
-
+    margin-top: 3.75em;
 }
 
 .tittle-footer{
@@ -366,6 +291,10 @@ input-text{
     text-align: left;
 }
 
+.listas-about{
+    margin-top: 0.1875em;
+}
+
 .contacto-footer{
     padding-left: 10em;
 }
@@ -375,6 +304,8 @@ input-text{
     width: 1.15em;
     height: 1.1em;
     margin: 0.1em;
+    flex-direction: row;
+    margin-top: 0.5em;
 }
 
 
@@ -402,15 +333,6 @@ input-text{
     75% { transform: translateX(-5px); }
     100% { transform: translateX(0); }
 }
-
-.dropdown-icon{
-    display: none;
-}
-
-.points-icon{
-    display: none;
-}
-
 
 .carro-animado {
     animation: moverCarroAnimacion 0.5s ease-in-out;
@@ -457,20 +379,49 @@ input-text{
         display: none;
     }
 
-    .menu2 a {
-        padding: 1em; 
+    .title-catalog{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
     }
 
-    .content-products {
-        width: 90%; 
+    .title-catalog2{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+    
+    .dropdown-icon{
+        display: flex;
     }
 
-    .item {
-        margin: 0 1em 1em; 
+    .content-products{
+        margin-top: 130px;
+    }
+    
+    .items-container .item:not(#sacamuelas){
+        display: none;
     }
 
-    .item img {
-        height: 15em; 
+    .items-container2 .item:not(#skyrim){
+        display: none;
+    }
+
+    .items-container {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    
+
+    .items-container2 {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+
+    .container-img{
+        overflow: hidden;
     }
 
     .tittle-footer{
@@ -521,13 +472,33 @@ input-text{
         margin: 0.93em 0.62em; 
     }
 
-    .item img {
-        height: 15em; 
+    .item img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0.625em 0.625em 0 0; 
     }
-
-    .button-more{
-        margin-left: auto;
-        width: 7.5%;
+    
+    
+    .container-img#skyrim{
+        height: 12.5em;
+        width: 12.5em;
+    }
+    
+    .container-img#humedal{
+        height: 12.5em;
+        width: 12.5em;
+        
+    }
+    
+    .container-img#dungeon{
+        height: 15em; 
+        width: 15em; 
+    }
+    
+    .container-img#dragonkeepers{
+        height: 15em;
+        width: 15em;
     }
     
 
