@@ -1,3 +1,7 @@
+const bcrypt = require('bcryptjs');// Añade la importación de bcrypt
+const connection = require('../conexion');
+const { postRegister } = require('./loginController');
+
 
 const getIndex = (req, res) => {
     res.render('index');
@@ -29,6 +33,11 @@ const getLogin = (req, res) => {
 
 const getShopping = (req, res) => {
     res.render('shopping');
+};
+
+const postLogin = (req, res) => {
+    console.log('aqui');
+    res.render('login');
 };
 
 const getSacamuelas = (req, res) => {
@@ -110,6 +119,10 @@ module.exports = {
     getSkyrim,
     getZygomatic,
     getJenga,
-    getUno
+    getUno,
+
+
+    postLogin,
+    postRegister
 
 }

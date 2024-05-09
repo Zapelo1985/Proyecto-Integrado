@@ -11,7 +11,6 @@ router
     .get('/catalogue',enlaceController.getCatalogue)
     .get('/register',enlaceController.getRegister)
     .get('/contact',enlaceController.getContact)
-    .get('/login',enlaceController.getLogin)
     .get('/shopping',enlaceController.getShopping)
     .get('/sacamuelas',enlaceController.getSacamuelas)
     .get('/risk',enlaceController.getRisk)
@@ -29,7 +28,10 @@ router
 
 
 
-  
+    .get('/login',enlaceController.getLogin)
+    .post('/register',enlaceController.postRegister)
+    .post('/login',enlaceController.postLogin)
+    
 
     
 module.exports = router;
