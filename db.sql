@@ -19,7 +19,7 @@ create table USERS(
 	id INT primary key auto_increment,
 	name VARCHAR(50) not null,
 	surname VARCHAR(50) not null,
-	passwd VARCHAR(50)  not null,
+	passwd VARCHAR(255)  not null,
 	email VARCHAR(50) not null unique
 	
 );
