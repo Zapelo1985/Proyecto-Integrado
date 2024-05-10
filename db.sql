@@ -1,5 +1,7 @@
--- PROYECTO LENGUAJE
+-- PROYECTO LENGUAJE HABITGAMES
 
+-- borrar
+drop database habit_games;
 -- crear BD
 
 create database habit_games;
@@ -19,7 +21,7 @@ create table USERS(
 	id INT primary key auto_increment,
 	name VARCHAR(50) not null,
 	surname VARCHAR(50) not null,
-	passwd VARCHAR(255)  not null,
+	passwd CHAR(60)  not null,
 	email VARCHAR(50) not null unique
 	
 );

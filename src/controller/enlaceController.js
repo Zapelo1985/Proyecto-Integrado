@@ -24,11 +24,11 @@ const getContact = (req, res) => {
 };
 
 const getRegister = (req, res) => {
-    res.render('register');
+    res.render('register',{mensaje: ''});
 };
 
 const getLogin = (req, res) => {
-    res.render('login');
+    res.render('login',{mensaje: ''});
 };
 
 const getShopping = (req, res) => {
@@ -36,8 +36,30 @@ const getShopping = (req, res) => {
 };
 
 const postLogin = (req, res) => {
-    console.log('aqui');
-    res.render('login');
+    console.log(req.body);
+    const email = req.body.email;
+    const password = req.body.passwd;
+    const query = 'SELECT * FROM users WHERE email = ?';
+
+    connection.query(query, [email], async (err, results) => {
+        if (err) throw err;
+
+        console.log
+        if (results.length > 0) {
+            const validPassword = await bcrypt.compare(password, results[0].passwd);
+            if (validPassword) {
+                req.session.loggedIn = true;
+                req.session.email = email;
+                // Imprimir el nombre de usuario en la consola
+                console.log(`Inicio de sesión exitoso para el usuario: ${results[0].name}`);
+                res.redirect('/'); // Redirige al usuario al index
+            } else {
+                res.render('login', { mensaje: 'Contraseña inválida' }); // Renderiza la página de inicio de sesión con un mensaje de error
+            }
+        } else {
+            res.render('login', { mensaje: 'Usuario no válido' }); // Renderiza la página de inicio de sesión con un mensaje de error
+        }
+    });
 };
 
 const getSacamuelas = (req, res) => {

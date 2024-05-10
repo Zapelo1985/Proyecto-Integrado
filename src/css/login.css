@@ -417,6 +417,24 @@ pre {
     animation: moverCarroAnimacion 0.5s ease-in-out;
 }
 
+/*ANIMACION PARA LOGEO AVISO*/
+
+.error-message {
+    position: fixed;
+    bottom: 20px; /* Ajusta la posición según sea necesario */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #29c224;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9999; /* Asegúrate de que esté por encima de otros elementos */
+    display: none; /* Inicialmente oculto */
+}
+
+.error-message.show {
+    display: block; /* Muestra el mensaje cuando se aplica la clase .show */
+}
 
 
 @media screen and (max-width: 768px) {

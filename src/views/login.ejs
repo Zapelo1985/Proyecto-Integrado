@@ -8,6 +8,7 @@
     <link rel="icon" type="image/jpg" href="./images/logo.png">
     <script src="./javascripts/index.js"></script>
 
+
 </head>
 
 <body>
@@ -84,16 +85,21 @@
            
 
         </div>
-            
-           
-
-             
-
-       
-        
-
+                   
     </div>
+    
+
+    <% if (mensaje) { %>
+        <div class="error-message show"><%= mensaje %></div>
+    <% } %>
+
+
+    <div class="error-message" id="error-message" style="display: none;">
+        No has iniciado sesión correctamente.
+    </div>
+   
 </body>
+
 
 <footer>
     <div class="page-footer">

@@ -25,7 +25,7 @@ router
     .get('/zygomatic',enlaceController.getZygomatic)
     .get('/jenga',enlaceController.getJenga)
     .get('/uno',enlaceController.getUno)
-
+    
 
 
     .get('/login',enlaceController.getLogin)
@@ -35,6 +35,3 @@ router
 
     
 module.exports = router;
-   
-
-

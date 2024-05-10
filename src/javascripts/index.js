@@ -48,3 +48,5 @@ function sortProducts() {
 }
 
 document.getElementById("sort-by").addEventListener("change", sortProducts);
+
+
