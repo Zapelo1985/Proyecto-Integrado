@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+.logo{
+    display: flex;
+    margin-left: 1.87em;
+}
+
+.logo img{
+    width:  3.1em;
+    height: 3.1em;
+}
+
+.logo2{
+    display: flex;
+    margin-right: 1.87em;
+}
+
+.logo2 img{
+    width: 2.5em;
+    margin-right: 0.31em;
+}
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4.37em;
+    background-color: #29c224;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+    font-weight: bold; 
+    text-transform: uppercase;  
+      
+}
+
+.banner{
+    height: 60vh !important;
+    background: url(/img/banner.png) no-repeat center;  
+    background-attachment: fixed;  
+    background-size:cover;      
+}  
+
+
+.menu2{
+    display: flex;
+    margin-right: 0.62em;
+}
+
+.menu2 a {
+    display: block;
+    padding: 1.25em 1.25em;
+    color: rgb(233, 231, 231);
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu2 a:hover{
+    background-color: #b5ecad;
+}
+
+.logo2 img:hover{
+    background-color: #b5ecad;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+
+.header{
+    height: 30vh !important;
+    background: url(/img/banner.png);  
+    background-attachment: fixed;
+    background-size: contain;  
+    background-repeat: no-repeat; 
+}  
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-products{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1.56em;
+    margin-top: 1.56em;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.title-catalog{
+    width: 100%;
+    display: flex;
+    padding: 0.9375em;
+    margin-bottom: 1.25em;
+}
+
+.button-more{
+    margin-left: auto;
+    width: 4.5%;
+}
+
+.items-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25em;
+}
+
+
+.item{
+    border-radius:  0.62em;
+    display: flex;
+    flex-direction: column; 
+    margin: 0 1.25em 1.25em;
+
+}
+.item:hover{
+    box-shadow: 0 0.625em 1.25em black;
+}
+
+.producto:last-child {
+    margin-right: 0; 
+}
+
+.info-product{
+    padding: 0.93em 1.87em;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.62em;
+}
+
+.price{
+    font-size: 1em;
+    font-weight: 750;
+}
+
+.info-product button{
+    border: none;
+    background: none;
+    background-color: black;
+    color: white;
+    padding: 0.93em 0.625em;
+    cursor: pointer;
+}
+
+.item img{
+    height: 18.75em;
+    object-fit: cover;
+    border-radius: 0.625em 0.625em 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.page-footer{
+    border-bottom: 0.0625em solid #9c9a9a;
+    background-color: #eee7e7;
+    margin-top: 3.75em;
+
+}
+
+.tittle-footer{
+    margin-top: 0.3em;
+}
+
+
+.btn{
+    width: auto;
+    padding: 0.25em 0.625em;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: aliceblue;
+    background-color: rgb(35, 126, 206);
+    margin-top: 1.25em;
+    cursor: pointer;
+    border-radius: 0.5em;
+    margin-left: 1.25em;
+}
+
+.subscribe{
+    display: flex;
+    min-height: 3.75em;
+    justify-content: center;
+    padding: 2.5em;
+    margin-bottom: 1.25em;
+    
+}
+
+.policy-text {
+    margin-top: 0.93em;
+    color: #000;
+    display: block;
+}
+
+.input-text{
+    width: 18.75em; 
+    height: 1.87em; 
+    font-size: 1rem; 
+}
+
+
+.policy-link {
+    color: rgb(35, 126, 206);
+    text-decoration: none; 
+}
+
+.policy-link:hover {
+    text-decoration: underline; 
+}
+
+.footer-content{
+    display: flex;
+    list-style: none none;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    height: 6.25em;
+    margin-top: 2.1em;
+  
+}
+
+.footer-content h4{
+    text-transform: uppercase;
+}
+
+.footer-content ul li{
+    list-style: none;
+}
+
+.about-footer{
+    padding-right: 3.125em;
+    
+}
+
+.listas-about li a{
+    text-decoration: none;
+    color: #9c9a9a;
+    text-align: left;
+}
+
+.listas-about{
+    margin-top: 0.1875em ;
+}
+
+.contacto-footer{
+    padding-left: 10em;
+   
+    
+}
+.social-icons{
+    display: flex;
+    width: 1.15em;
+    height: 1.1em;
+    margin: 0.1em;
+    flex-direction: row; 
+    margin-top: 0.5em;
+    
+    
+}
+
+
+.vertical-border {
+    display: flex;
+    border-right: 0.09em solid #9c9a9a;
+    padding-left: 6.2em;
+    margin-top: -2.1em;
+    
+}
+
+.dropdown-icon{
+    display: none;
+}
+
+.points-icon{
+    display: none;
+}
+
+/*PARA ANIMACION DEL CARRO*/
+
+@keyframes moverCarroAnimacion {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-8px); }
+    50% { transform: translateX(8px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.carro-animado {
+    animation: moverCarroAnimacion 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .head {
+       height: 5em;
+       position: fixed;
+       top: 0;
+       width: 100%;
+       background-color:#29c224;
+       justify-content: center;
+
+    }
+
+    .menu2{
+        display: none;
+    }
+
+    .products-container{
+        display: block;
+    }
+
+    .logo{
+        align-items: center;
+    }
+  
+    .logo2{
+        position: absolute;
+        left: 335px;
+    }
+    
+    .logo2 .dropdown-icon{
+        position: absolute;
+        right: 350px;
+    }
+
+   .header{
+        display: none;
+    }
+
+    .title-catalog{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+    
+    .dropdown-icon{
+        display: flex;
+    }
+
+    .content-products{
+        margin-top: 130px;
+    }
+    
+    .items-container .item:not(#uno){
+        display: none;
+    }
+
+
+    .items-container {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    
+
+    .container-img{
+        overflow: hidden;
+    }
+
+    .tittle-footer{
+       font-size: 16px; 
+    }
+    
+    .input-group{
+        margin-top: 20px;
+    }
+
+    .footer-content{
+        display: none;
+    }
+       
+}
